@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Paul Ohm&#39;s Home Page v2</title>
-    <link>https://paulohm.com/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Paul Ohm&#39;s Home Page v2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 11:43:56 -0400</lastBuildDate><atom:link href="https://paulohm.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 11:43:56 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>https://paulohm.com/posts/first-post/</link>
+      <link>/posts/first-post/</link>
       <pubDate>Mon, 21 Jun 2021 11:43:56 -0400</pubDate>
       
-      <guid>https://paulohm.com/posts/first-post/</guid>
+      <guid>/posts/first-post/</guid>
       <description>This is a test.
 Is this working?</description>
     </item>
