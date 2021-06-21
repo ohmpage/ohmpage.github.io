@@ -5,6 +5,9 @@
     <loc>/about/</loc>
     <lastmod>2021-06-21T11:44:02-04:00</lastmod>
   </url><url>
+    <loc>/contact/</loc>
+    <lastmod>2021-06-21T11:44:02-04:00</lastmod>
+  </url><url>
     <loc>/posts/first-post/</loc>
     <lastmod>2021-06-21T11:43:56-04:00</lastmod>
   </url><url>
@@ -13,6 +16,9 @@
   </url><url>
     <loc>/posts/</loc>
     <lastmod>2021-06-21T11:43:56-04:00</lastmod>
+  </url><url>
+    <loc>/courses/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>/categories/</loc>
   </url><url>

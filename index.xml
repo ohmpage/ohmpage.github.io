@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paul Ohm&#39;s Home Page v2</title>
+    <title>Paul Ohm</title>
     <link>/</link>
-    <description>Recent content on Paul Ohm&#39;s Home Page v2</description>
+    <description>Recent content on Paul Ohm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Jun 2021 11:43:56 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,20 @@
       <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
       
       <guid>/about/</guid>
-      <description>About us.</description>
+      <description>Paul Ohm is a Professor of Law at the Georgetown University Law Center in Washington, D.C. Professor Ohm tries to build bridges between computer science and law in his research, service, and teaching, building on his training as a lawyer, computer programmer, and network systems admininstrator.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>ohm@law.georgetown.edu
+202-662-9685
+Paul Ohm
+600 New Jersey Avenue, N.W.
+Washington, D.C. 20001</description>
     </item>
     
     <item>
@@ -24,6 +37,15 @@
       <guid>/posts/first-post/</guid>
       <description>This is a test.
 Is this working?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/courses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/</guid>
+      <description>All Courses Taught Computer Crime (Lecture and Seminar); Computer Programming for Lawyers (Introductory and Intermediate); Copyright; Criminal Justice; Criminal Procedure, Investigative; Information Privacy (Lecture and Seminar); Introduction to Intellectual Property; Investigating Crime in the Darknet; LL.M Academic Legal Writing Seminar; Technology of Privacy; Quantitative Methods for Lawyers</description>
     </item>
     
   </channel>
