@@ -1,42 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>/</loc>
     <lastmod>2021-06-22T11:43:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/posts/fifth/</loc>
     <lastmod>2021-06-22T11:43:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/posts/fourth/</loc>
     <lastmod>2021-06-22T11:43:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/posts/</loc>
     <lastmod>2021-06-22T11:43:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/posts/sixth/</loc>
     <lastmod>2021-06-22T11:43:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2021-06-21T11:44:02-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/contact/</loc>
     <lastmod>2021-06-21T11:44:02-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/posts/first-post/</loc>
     <lastmod>2021-06-21T11:43:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/posts/second/</loc>
     <lastmod>2021-06-21T11:43:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/posts/third/</loc>
     <lastmod>2021-06-21T11:43:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/courses/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
   </url>
+  
 </urlset>
