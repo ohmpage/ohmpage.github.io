@@ -38,15 +38,6 @@ Is this working?</description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Paul Ohm is a Professor of Law at the Georgetown University Law Center in Washington, D.C. Professor Ohm builds bridges between computer science and law in his research, service, and teaching, utilizing his training as a lawyer, computer programmer, and network systems admininstrator. His research focuses on information privacy, computer crime law, surveillance, technology and the law, and artificial intelligence and the law. Professor Ohm has published landmark articles about the failure of anonymization, the fourth amendment and new technology, and broadband privacy.</description>
-    </item>
-    
-    <item>
       <title>Bio</title>
       <link>/bio/</link>
       <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
