@@ -56,8 +56,13 @@ Is this working?</description>
       <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
       
       <guid>/contact/</guid>
-      <description>ohm@law.georgetown.edu
+      <description>Online:
+ohm@law.georgetown.edu
+Faculty home page
+Twitter @paulohm
 202-662-9685
+Office location: Room 822, 500 First Street, N.W., Washington, DC, 20001 (Nearest metro stop: Judiciary Square)
+Mailing address:
 Paul Ohm
 600 New Jersey Avenue, N.W.
 Washington, D.C. 20001</description>
@@ -103,6 +108,24 @@ Is this working?</description>
     </item>
     
     <item>
+      <title>Desirable Inefficiency</title>
+      <link>/pub/desirable-inefficiency/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/desirable-inefficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensitive Information</title>
+      <link>/pub/sensitive/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/sensitive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Branding Privacy</title>
       <link>/pub/branding/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
@@ -112,12 +135,21 @@ Is this working?</description>
     </item>
     
     <item>
+      <title>The Myth of the Superuser: Fear, Risk, and Harm Online</title>
+      <link>/pub/myth/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/myth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/courses/</guid>
-      <description>All Courses Taught Computer Crime (Lecture and Seminar); Computer Programming for Lawyers (Introductory and Intermediate); Copyright; Criminal Justice; Criminal Procedure, Investigative; Information Privacy (Lecture and Seminar); Introduction to Intellectual Property; Investigating Crime in the Darknet; LL.M Academic Legal Writing Seminar; Technology of Privacy; Quantitative Methods for Lawyers</description>
+      <description>All Courses Taught  Computer Crime (Lecture and Seminar) Computer Programming for Lawyers (Introductory and Intermediate) Copyright Criminal Justice Criminal Procedure, Investigative Foundations of American Law in the Technological Age Information Privacy (Lecture and Seminar) Introduction to Intellectual Property Investigating Crime in the Darknet (Short course practicum) LL.M Academic Legal Writing Seminar Technology of Privacy Quantitative Methods for Lawyers  </description>
     </item>
     
   </channel>
