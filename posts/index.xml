@@ -6,69 +6,18 @@
     <description>Recent content in Posts on Paul Ohm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Jun 2021 11:43:56 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fifth Post</title>
-      <link>/posts/fifth/</link>
-      <pubDate>Tue, 22 Jun 2021 11:43:56 -0400</pubDate>
+      <title>Test</title>
+      <link>/posts/test/</link>
+      <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
       
-      <guid>/posts/fifth/</guid>
-      <description>This is a test.
-Is this working?</description>
-    </item>
-    
-    <item>
-      <title>Fourth Post</title>
-      <link>/posts/fourth/</link>
-      <pubDate>Tue, 22 Jun 2021 11:43:56 -0400</pubDate>
-      
-      <guid>/posts/fourth/</guid>
-      <description>This is a test.
-Is this working?</description>
-    </item>
-    
-    <item>
-      <title>Sixth Post</title>
-      <link>/posts/sixth/</link>
-      <pubDate>Tue, 22 Jun 2021 11:43:56 -0400</pubDate>
-      
-      <guid>/posts/sixth/</guid>
-      <description>This is a test.
-Is this working?</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>/posts/first-post/</link>
-      <pubDate>Mon, 21 Jun 2021 11:43:56 -0400</pubDate>
-      
-      <guid>/posts/first-post/</guid>
-      <description>This is a test.
-Is this working?</description>
-    </item>
-    
-    <item>
-      <title>Second Post</title>
-      <link>/posts/second/</link>
-      <pubDate>Mon, 21 Jun 2021 11:43:56 -0400</pubDate>
-      
-      <guid>/posts/second/</guid>
-      <description>This is a test.
-Is this working?</description>
-    </item>
-    
-    <item>
-      <title>Third Post</title>
-      <link>/posts/third/</link>
-      <pubDate>Mon, 21 Jun 2021 11:43:56 -0400</pubDate>
-      
-      <guid>/posts/third/</guid>
-      <description>This is a test.
-Is this working?</description>
+      <guid>/posts/test/</guid>
+      <description>Hello, world!</description>
     </item>
     
   </channel>
