@@ -72,27 +72,20 @@
   </url>
   
   <url>
-    <loc>/pub/desirable-inefficiency/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pub/sensitive/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/pub/branding/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>/pub/myth/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
 >>>>>>> b31e8535eacc2dd6d18cca33c4e6fae8971e0d4a
+=======
+>>>>>>> parent of b31e853... Small tweaks.
     <loc>/courses/</loc>
     <priority>0</priority>
   </url>
