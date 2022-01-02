@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Paul Ohm</title>
+    <link>/pub/</link>
+    <description>Recent content in Publications on Paul Ohm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate>
+    
+	<atom:link href="/pub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Many Revolutions of Carpenter</title>
+      <link>/pub/carpenter/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/carpenter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desirable Inefficiency</title>
+      <link>/pub/desirable-inefficiency/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/desirable-inefficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensitive Information</title>
+      <link>/pub/sensitive/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/sensitive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Branding Privacy</title>
+      <link>/pub/branding/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/branding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Myth of the Superuser: Fear, Risk, and Harm Online</title>
+      <link>/pub/myth/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/myth/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
