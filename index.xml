@@ -6,11 +6,7 @@
     <description>Recent content in Homepage on Paul Ohm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fifth Post</title>
       <link>/posts/fifth/</link>
@@ -39,6 +35,15 @@ Is this working?</description>
       <guid>/posts/sixth/</guid>
       <description>This is a test.
 Is this working?</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Paul Ohm is a Professor of Law at the Georgetown University Law Center in Washington, D.C. Professor Ohm builds bridges between computer science and law in his research, service, and teaching, utilizing his training as a lawyer, computer programmer, and network systems admininstrator. His research focuses on information privacy, computer crime law, surveillance, technology and the law, and artificial intelligence and the law. Professor Ohm has published landmark articles about the failure of anonymization, the fourth amendment and new technology, and broadband privacy.</description>
     </item>
     
     <item>
@@ -117,7 +122,7 @@ Is this working?</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/courses/</guid>
-      <description>All Courses Taught Computer Crime (Lecture and Seminar); Computer Programming for Lawyers (Introductory and Intermediate); Copyright; Criminal Justice; Criminal Procedure, Investigative; Information Privacy (Lecture and Seminar); Introduction to Intellectual Property; Investigating Crime in the Darknet; LL.M Academic Legal Writing Seminar; Technology of Privacy; Quantitative Methods for Lawyers</description>
+      <description>All Courses Taught  Computer Crime (Lecture and Seminar) Computer Programming for Lawyers (Introductory and Intermediate) Copyright Criminal Justice Criminal Procedure, Investigative Foundations of American Law in the Technological Age Information Privacy (Lecture and Seminar) Introduction to Intellectual Property Investigating Crime in the Darknet (Short course practicum) LL.M Academic Legal Writing Seminar Technology of Privacy Quantitative Methods for Lawyers  </description>
     </item>
     
   </channel>
