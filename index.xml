@@ -6,7 +6,11 @@
     <description>Recent content in Homepage on Paul Ohm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Fifth Post</title>
       <link>/posts/fifth/</link>
@@ -104,11 +108,29 @@ Is this working?</description>
     </item>
     
     <item>
+      <title>Illusory Conflicts: Post-Employment Clearance Procedures and the FTC’s Technological Expertise</title>
+      <link>/pub/conflicts/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/conflicts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Many Revolutions of Carpenter</title>
       <link>/pub/carpenter/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/pub/carpenter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Throttling Machine Learning</title>
+      <link>/pub/throttling/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/throttling/</guid>
       <description></description>
     </item>
     
@@ -122,11 +144,101 @@ Is this working?</description>
     </item>
     
     <item>
+      <title>Forthright Code</title>
+      <link>/pub/forthright/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/forthright/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulating at Scale</title>
+      <link>/pub/scale/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Playing With the Data: What Legal Scholars Should Learn About Machine Learning</title>
+      <link>/pub/playing/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/playing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Investigative Dynamics of the Use of Malware by Law Enforcement</title>
+      <link>/pub/malware/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/malware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulating Software When Everything Has Software</title>
+      <link>/pub/software/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Surveillance Regulation Toolkit: Thinking Beyond Probable Cause</title>
+      <link>/pub/toolkit/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/toolkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>We Couldn’t Kill the Internet If We Tried</title>
+      <link>/pub/kill/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/kill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What if Everything Reveals Everything?</title>
+      <link>/pub/reveals/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/reveals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sensitive Information</title>
       <link>/pub/sensitive/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>/pub/sensitive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Life of Riley (v. California)</title>
+      <link>/pub/riley/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/riley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Do the Rules Say About Data Analysis?</title>
+      <link>/pub/data-analysis-rules/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/data-analysis-rules/</guid>
       <description></description>
     </item>
     
@@ -140,11 +252,110 @@ Is this working?</description>
     </item>
     
     <item>
+      <title>The Underwhelming Benefits of Big Data</title>
+      <link>/pub/underwhelming/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/underwhelming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electronic Surveillance Law and the Intra-Agency Separation of Powers</title>
+      <link>/pub/separation/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Fourth Amendment in a World Without Privacy</title>
+      <link>/pub/without-privacy/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/without-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Massive Hard Drives, General Warrants, and the Power of Magistrate Judges</title>
+      <link>/pub/magistrate/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/magistrate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization</title>
+      <link>/pub/broken/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/broken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probably Probable Cause: The Diminishing Importance of Justification Standards</title>
+      <link>/pub/probably/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/probably/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Argument Against Technology Neutral Surveillance Laws</title>
+      <link>/pub/neutral/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/neutral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Programming and the Law: A New Research Agenda</title>
+      <link>/pub/programming/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Rise and Fall of Invasive ISP Surveillance</title>
+      <link>/pub/isp/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/isp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Good Enough Privacy</title>
+      <link>/pub/enough/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/enough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Myth of the Superuser: Fear, Risk, and Harm Online</title>
       <link>/pub/myth/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       
       <guid>/pub/myth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Olmsteadian Seizure Clause</title>
+      <link>/pub/olmsteadian/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/pub/olmsteadian/</guid>
       <description></description>
     </item>
     
