@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hello, world!</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Mon, 03 Jan 2022 13:44:02 -0500</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>Hello, world!
+Another year, another website, another blog. Happy 2022.
+I&amp;rsquo;ve had the same black-and-white home page for as long as I&amp;rsquo;ve been a professor, so more than fifteen years. This new-and-improved version has a few tiny splashes of color and, more importantly, it is responsive. But in its minimalism, it&amp;rsquo;s very much the spiritual successor to my prior page.
+The biggest change is under the hood: no longer is this just a bunch of hand-edited HTML.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
@@ -42,15 +54,6 @@ Mailing address:
 Paul Ohm
 600 New Jersey Avenue, N.W.
 Washington, D.C. 20001</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>/posts/test/</link>
-      <pubDate>Mon, 21 Jun 2021 11:44:02 -0400</pubDate>
-      
-      <guid>/posts/test/</guid>
-      <description>Hello, world!</description>
     </item>
     
     <item>
