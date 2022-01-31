@@ -6,7 +6,11 @@
     <description>Recent content in Homepage on Paul Ohm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Hello, world!</title>
       <link>/post/hello-world/</link>
@@ -17,6 +21,16 @@
 Another year, another website, another blog. Happy 2022.
 I&amp;rsquo;ve had the same black-and-white home page for as long as I&amp;rsquo;ve been a professor, so more than fifteen years. This new-and-improved version has a few tiny splashes of color and, more importantly, it is responsive. But in its minimalism, it&amp;rsquo;s very much the spiritual successor to my prior page.
 The biggest change is under the hood: no longer is this just a bunch of hand-edited HTML.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/scratch/links/</link>
+      <pubDate>Mon, 03 Jan 2022 13:44:02 -0500</pubDate>
+      
+      <guid>/scratch/links/</guid>
+      <description>Random links
+ Colloquium 1/31/22 slides  </description>
     </item>
     
     <item>
