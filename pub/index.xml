@@ -6,10 +6,24 @@
     <description>Recent content in Publications on Paul Ohm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jun 2021 11:44:02 -0400</lastBuildDate><atom:link href="/pub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Governance Seams</title>
+      <link>/pub/seams/</link>
+      <pubDate>Tue, 03 Jan 2023 19:31:49 +0000</pubDate>
+      
+      <guid>/pub/seams/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="/pub/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Legacy Switches: A Proposal to Protect Privacy, Security, and the Environment from the Internet of Things</title>
+      <link>/pub/legacy/</link>
+      <pubDate>Tue, 03 Jan 2023 19:31:49 +0000</pubDate>
+      
+      <guid>/pub/legacy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Computer Fraud and Abuse Act After Van Buren</title>

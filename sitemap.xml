@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/pub/seams/</loc>
+    <lastmod>2023-01-03T19:31:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pub/legacy/</loc>
+    <lastmod>2023-01-03T19:31:49+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/hello-world/</loc>
     <lastmod>2022-01-03T13:44:02-05:00</lastmod>
   </url>
