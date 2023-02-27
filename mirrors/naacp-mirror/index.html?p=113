@@ -1,0 +1,703 @@
+  <!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html lang="en" class="no-js oldie">
+<![endif]-->
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="shortcut icon" type="image/x-icon" href="wp-content/themes/naacp/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="wp-content/themes/naacp/favicon.ico">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,300,300italic,600italic,700,700italic,800,800italic">
+  <link rel="stylesheet" type="text/css" href="http://cloud.typography.com/790686/608904/css/fonts.css">
+
+
+  
+  <title>NAACP | Find Your Local Unit</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="The mission of the National Association for the Advancement of Colored People is to ensure the political, educational, social, and economic equality of rights of all persons and to eliminate race-based discrimination."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="index.html?p=113" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="NAACP | Find Your Local Unit" />
+<meta property="og:description" content="The mission of the National Association for the Advancement of Colored People is to ensure the political, educational, social, and economic equality of rights of all persons and to eliminate race-based discrimination." />
+<meta property="og:url" content="http://www.naacp.org/find-local-unit/" />
+<meta property="og:site_name" content="NAACP" />
+<meta property="article:publisher" content="https://www.facebook.com/naacp" />
+<meta property="fb:app_id" content="267789348721" />
+<meta property="og:image" content="http://www.naacp.org/wp-content/uploads/2016/03/NAACP-Homepage4.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The mission of the National Association for the Advancement of Colored People is to ensure the political, educational, social, and economic equality of rights of all persons and to eliminate race-based discrimination." />
+<meta name="twitter:title" content="NAACP | Find Your Local Unit" />
+<meta name="twitter:site" content="@NAACP" />
+<meta name="twitter:image" content="http://www.naacp.org/wp-content/uploads/2016/03/NAACP-Homepage4.png" />
+<meta name="twitter:creator" content="@NAACP" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='index.html' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<script type='text/javascript' src='wp-content/themes/naacp/src/js/vendor/jquery.js?ver=2.1.14'></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/owl.carousel.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/jquery.swipebox.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/modernizr.custom.26633.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/jquery.gridrotator.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/ios-orientationchange-fix.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/modernizr.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/classie.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/photostack.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/jquery.stapel.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/plugins/enjoy-instagram-premium/js/modernizr.custom.63321.min.js?ver=4.6.1' defer ''></script>
+<script type='text/javascript' src='wp-content/themes/naacp/src/js/vendor/modernizr-custom.js?ver=3.3.1' defer ''></script>
+<link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel='shortlink' href='index.html?p=113' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=http:%252F%252Fwww.naacp.org%252Ffind-local-unit%252F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=http:%252F%252Fwww.naacp.org%252Ffind-local-unit%252F&amp;format=xml" />
+   <script type="text/javascript">
+
+		jQuery(function(){
+		  jQuery(document.body)
+			  .on('click touchend','#swipebox-slider .current img', function(e){
+				  jQuery('#swipebox-next').click();
+				  return false;
+			  })
+			  .on('click touchend','#swipebox-slider .current', function(e){
+				  jQuery('#swipebox-close').trigger('click');
+			  });
+		});
+                /* ridimensionamento immagine profilo in badge */
+                jQuery(document).ready(function(){
+                  jQuery('#div_shortcode_badge #badge_image_profile').height(jQuery('#div_shortcode_badge #badge_image_profile').width());
+                  jQuery('#div_shortcode_badge_widget #badge_image_profile').height(jQuery('#div_shortcode_badge_widget #badge_image_profile').width());
+
+                });
+               jQuery( window ).resize(function() {
+  jQuery('#div_shortcode_badge #badge_image_profile').height(jQuery('#div_shortcode_badge #badge_image_profile').width());
+  jQuery('#div_shortcode_badge_widget #badge_image_profile').height(jQuery('#div_shortcode_badge_widget #badge_image_profile').width());
+
+});
+
+//Grid displaying after loading of images
+	function display_grid(){
+		jQuery('[id^="ei-grid-loading-"]').hide();
+		jQuery('[id^="ei-grid-list-"]').show();
+	}
+
+	window.onload = display_grid;
+
+
+</script>
+   
+  
+  <link rel="stylesheet" href="wp-content/themes/naacp/style.css" type="text/css" media="screen">
+
+  <!-- Optimizely -->
+  <script src="http://cdn.optimizely.com/js/910001.js"></script>      </head>
+
+<body class="page page-id-113 page-template-default" data-template="base.twig">
+
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-NH55V2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NH55V2');</script>
+  <!-- End Google Tag Manager -->
+  
+  <div class="alert delayed-show" data-alert-bar data-resize="alert" role="alert" aria-hidden="true"><div class="row"><div class="columns small-12"><div class="alert__content"><strong>Get Involved: </strong>Join the NAACP as we stand for Civil Rights.  <a href="https://donate.naacp.org/page/contribute/make-a-contribution" class="alert__link">Make a Contribution Today</a><a class="alert__close" href="index.html?p=113#"><i class="fa fa-close"></i></a></div></div></div></div>
+
+      <aside class="side-nav delayed-show">
+  <a href="index.html?p=113#" class="side-nav__close">Close <i class="fa fa-close"></i></a>
+  <div class="side-nav__content">
+    <div class="menu-sidebar-top-menu-container"><ul id="menu-sidebar-top-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="index.html">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="latest/index.html">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-144"><a href="index.html?p=67">Issues</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-issues menu-item-432"><a href="index.html?p=95">Criminal Justice</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-issues menu-item-436"><a href="index.html?p=65">Civic Engagement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-issues menu-item-434"><a href="index.html?p=417">Economic Opportunity</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-issues menu-item-435"><a href="index.html?p=423">Education</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-issues menu-item-11294"><a href="index.html?p=421">Environmental &#038; <br>   Climate Justice</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-issues menu-item-431"><a href="index.html?p=419">Health</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-issues menu-item-433"><a href="index.html?p=416">Media Diversity</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-113 current_page_item menu-item-146"><a href="index.html?p=113">Find Your Local Unit</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="index.html?p=115">Become a Member</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147"><a href="https://donate.naacp.org/page/contribute/make-a-contribution">Donate Now</a></li>
+</ul></div><ul class="social-icons menu simple"><li class="facebook-link"><a href="https://www.facebook.com/naacp/" target="_blank" class="ss-facebook"><span class="hide">Facebook</span></a></li><li class="twitter-link"><a href="https://twitter.com/NAACP" target="_blank" class="ss-twitter"><span class="hide">Twitter</span></a></li><li class="instagram-link"><a href="https://www.instagram.com/naacp/" target="_blank" class="ss-instagram"><span class="hide">Instagram</span></a></li><li class="youtube-link"><a href="https://www.youtube.com/user/naacpvideos/videos" target="_blank" class="ss-youtube"><span class="hide">Youtube</span></a></li><li class="email-link"><a href="mailto:info@naacp.org" target="_blank" class="ss-email"><span class="hide">Email</span></a></li></ul><div class="menu-sidebar-bottom-menu-container"><ul id="menu-sidebar-bottom-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9928"><a href="index.html?p=821">What Does NAACP Stand For?</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="index.html?p=150">Oldest and Boldest</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="index.html?p=154">Youth &#038; College</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-issues menu-item-10479"><a href="index.html?p=10472">Federal Advocacy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="index.html?p=160">Legal Department</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10683"><a href="index.html?p=10644">ACT-SO</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10309"><a href="index.html?p=585">Scholarships</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="index.html?p=158">Events</a></li>
+</ul></div><div class="menu-footer-sub-navigation-container"><ul id="menu-footer-sub-navigation-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9932"><a href="index.html?p=893">Employment at the NAACP</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="index.html?p=135">Field Resources &#038; Publications</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10524"><a href="index.html?p=769">Awards &#038; Fellowships</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9937"><a href="index.html?p=1202">Terms of Use</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9938"><a href="index.html?p=1201">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11472"><a href="http://www.naacpcompanystore.org/">NAACP Store</a></li>
+</ul></div>
+  </div> <!-- /.side-nav__content -->
+</aside> <!-- /.side-nav -->
+
+<nav class="primary-nav">
+  <div class="primary-nav__inner">
+    <div class="row">
+      <div class="small-12 columns">
+        <a href="index.html" class="primary-nav__logo-wrapper">
+          <svg class="primary-nav__logo">
+                          <use xlink:href="http://www.naacp.org/wp-content/themes/naacp/assets/img/icons.svg#icon-naacp-logo"></use>
+                      </svg>
+        </a>
+
+        <ul class="primary-nav__menu primary-nav__menu--left menu">
+                      <li class="primary-nav__menu__parent  menu-item menu-item-type-post_type menu-item-object-page menu-item-9929 menu-item-has-children">
+              <a href="index.html?p=821" class="primary-nav__link">About</a>
+                                                    <div class="primary-nav__subnav-wrapper">
+                        <div class="primary-nav__subnav">
+                                        <div class="primary-nav__subnav__list-wrapper">
+                      <ul class="primary-nav__subnav__main-menu">
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=886">NAACP Leadership</a></li>
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=150">NAACP History</a></li>
+                                              </ul> <!-- /.primary-nav__subnav__main-menu -->
+                    </div> <!-- /.primary-nav__subnav__list-wrapper -->
+                  </div> <!-- /.primary-nav__subnav -->
+                </div> <!-- /.primary-nav__subnav-wrapper -->
+                          </li>
+                      <li class="primary-nav__menu__parent  menu-item menu-item-type-post_type menu-item-object-page menu-item-122 menu-item-has-children">
+              <a href="index.html?p=67" class="primary-nav__link">Issues</a>
+                                                <div class="primary-nav__subnav-wrapper primary-nav__subnav-wrapper--expanded">
+                    <div class="primary-nav__subnav">
+                      <div class="primary-nav__subnav__list-wrapper">
+                        <ul class="primary-nav__subnav__featured-menu">
+                          <p class="primary-nav__subnav__title">:</p>
+                                                  </ul> <!-- /.primary-nav__subnav__featured-menu -->
+                      </div> <!-- /.primary-nav__subnav__list-wrapper -->
+                                        <div class="primary-nav__subnav__list-wrapper">
+                      <ul class="primary-nav__subnav__main-menu">
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=423">Education</a></li>
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=419">Health</a></li>
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=95">Criminal Justice</a></li>
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=416">Media Diversity</a></li>
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=417">Economic Opportunity</a></li>
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=65">Civic Engagement</a></li>
+                                                  <li class="primary-nav__subnav__list-item"><a href="index.html?p=421">Environmental & <br>Climate Justice</a></li>
+                                              </ul> <!-- /.primary-nav__subnav__main-menu -->
+                    </div> <!-- /.primary-nav__subnav__list-wrapper -->
+                  </div> <!-- /.primary-nav__subnav -->
+                </div> <!-- /.primary-nav__subnav-wrapper -->
+                          </li>
+                      <li class="primary-nav__menu__parent nav-hide-small menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-113 current_page_item menu-item-120">
+              <a href="index.html?p=113" class="primary-nav__link">Find Your Local Unit</a>
+                          </li>
+                      <li class="primary-nav__menu__parent  menu-item menu-item-type-post_type menu-item-object-page menu-item-119">
+              <a href="index.html?p=115" class="primary-nav__link">Become a Member</a>
+                          </li>
+                      <li class="primary-nav__menu__parent  menu-item menu-item-type-custom menu-item-object-custom menu-item-125">
+              <a href="https://donate.naacp.org/page/contribute/make-a-contribution" class="primary-nav__link">Donate</a>
+                          </li>
+                  </ul> <!-- /.menu -->
+
+        <a class="back-button" href="index.html?p=113#">
+          &lt;&nbsp;Back
+        </a> <!-- /.back-button -->
+
+        <ul class="primary-nav__menu primary-nav__menu--right menu">
+          <li class="primary-nav__menu__parent overlay__parent">
+            <button class="overlay-open primary-nav__link primary-nav__signup-link overlay__link"><i class="fa fa-envelope"></i> Sign Up</button>
+            <section class="overlay" aria-hidden="true" role="dialog" aria-label="Sign Up Window (press escape to close)">
+              <div class="overlay__wrapper">
+                <div class="overlay__content default-form">
+                  <h2 class="widgettitle">The NAACP fights for your civil rights - stand with us.</h2>
+    <form class="bsd-signup" action="https://action.naacp.org/page/s/quick-sign-up" role="form" data-abide novalidate>
+
+        <div class="default-form__button-wrapper">
+            <button type="submit" class="btn-submit btn-submit--blue-outline">Sign Up ></button>
+        </div>
+
+        <div class="default-form__fields-wrapper">
+            <div class="row">
+                                  <div class="small-12 medium-7 columns">
+                
+                  <label><span class="show-for-sr">Email Address</span>
+                    <input type="email" class="input--text" name="email" id="email" placeholder="Email address" required>
+                    <span class="input__error">Required field</span>
+                  </label>
+                </div> <!-- /.columns -->
+
+                                  <div class="small-12 medium-5 columns">
+                    <label><span class="show-for-sr">Zip Code</span>
+                      <input type="tel" class="input--text" name="zip" id="zip" placeholder="Zip code" required pattern="us_zip">
+                      <span class="input__error">Required field</span>
+                    </label>
+                  </div> <!-- /.columns -->
+                
+          </div> <!-- /.row -->
+        </div>
+    </form>
+
+    <p class="hide">Thank you for signing up!</p>
+                </div> <!-- /.overlay__content -->
+              </div> <!-- /.overlay__wrapper -->
+            </section>
+          </li>
+          <li class="primary-nav__menu__parent overlay__parent">
+            <button class="overlay-open primary-nav__link primary-nav__search-link overlay__link"><i class="fa fa-search"></i> Search</button>
+            <section class="overlay" aria-hidden="true" role="dialog" aria-label="Sign Up Window (press escape to close)">
+              <div class="overlay__wrapper">
+                <div class="overlay__content default-form default-form--search">
+                  <h2 class="overlay__title">Search</h2>
+                  <form class="search" method="get" action="http://www.naacp.org/search" role="form">
+                    <div class="default-form__button-wrapper">
+                      <button type="submit" class="btn-submit btn-submit--blue-outline"><i class="fa fa-search"></i></button>
+                    </div>
+                    <div class="default-form__fields-wrapper">
+                      <div class="row">
+                        <div class="small-12 columns">
+                          <div class="search-field-wrapper">
+                            <label for="search" class="show-for-sr">Type search term here</label>
+                            <input type="text" class="input--text text" name="q" id="search" placeholder="Type search term here">
+                          </div> <!-- /.search-field-wrapper -->
+                        </div> <!-- /.columns -->
+                      </div> <!-- /.row -->
+                    </div> <!-- /.default-form__fields-wrapper -->
+                  </form>
+                </div> <!-- /.overlay__content -->
+              </div> <!-- /.overlay__wrapper -->
+            </section> <!-- /.overlay -->
+          </li>
+          <li class="primary-nav__menu__parent primary-nav__menu-link"><a href="index.html?p=113#" class="primary-nav__link">Menu <i class="fa fa-bars"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- /.primary-nav__inner -->
+</nav> <!-- /.primary-nav -->
+  
+  <div class="page-row page-row-expanded main-content-wrapper">
+    <main class="main-content ">
+
+        <div class="article__wrapper ">
+    <article id="post-113" class="article body-content post-type-page" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+
+              <header class="article__header">
+          <div class="row row--small">
+            <div class="columns small-12">
+              <h1 class="article__title">Find Your Local Unit</h1>
+            </div>
+          </div>
+        </header> <!-- /.article__header -->
+      
+
+      <div class="row row--small">
+        <div class="columns small-12">
+            <section class="article__body" id="share-anchor" itemprop="articleBody">
+                                                          <p>With over two thousand local units nationwide, it is easy to get involved with the NAACP in your community. Use the listing below and find a unit close to you.</p>
+<p>If you&#8217;re ready to join, become an NAACP member <a href="index.html?p=115">here</a>.</p>
+<hr />
+<h2>Alabama</h2>
+<p><strong>NAACP Alabama State Conference</strong><br />
+Mailing Address<br />
+P.O. Box 866,<br />
+Athens, AL 35612</p>
+<p><a href="wp-content/uploads/2016/06/AL.pdf">Find Local NAACP Units in this state</a></p>
+<h2>Alaska</h2>
+<p><strong>NAACP Alaska Oregon Washington State-Area Conference</strong><br />
+P.O. Box 4144<br />
+Renton, WA 98057</p>
+<p><a href="wp-content/uploads/2016/06/AK.pdf">Find Local NAACP Units in this state</a></p>
+<h2>Arizona</h2>
+<p><strong>NAACP Arizona State Conference</strong><br />
+P.O Box 20605<br />
+Phoenix, Arizona 85036<br />
+<a href="mailto:arizonastateconferencenaacp@yahoo.com">arizonastateconferencenaacp@yahoo.com</a><br />
+<a href="http://www.arizonastateconferencenaacp.org/">arizonastateconferencenaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/AZ.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Arkansas</h2>
+<p><strong>NAACP Arkansas State Conference</strong><br />
+2020 West 3rd Street, Suite 219<br />
+Little Rock, AR 72202</p>
+<p><a href="wp-content/uploads/2016/06/AR.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>California</h2>
+<p><strong>NAACP California Hawaii State Conference</strong><br />
+1215 K Street, Suite 609<br />
+Sacramento, CA 95814</p>
+<p><a href="wp-content/uploads/2017/05/CA-1.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Colorado</h2>
+<p><strong>NAACP Colorado Montana Wyoming State Area Conference</strong><br />
+<a href="mailto:stateconferencenaacp@gmail.com">stateconferencenaacp@gmail.com</a><br />
+844-UR-NAACP (876-2227)<br />
+P.O. Box 15583<br />
+Colorado Springs, CO 80935</p>
+<p><a href="wp-content/uploads/2016/06/CO.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Connecticut</h2>
+<p><strong>NAACP Connecticut</strong><br />
+2074 Park Street, 2nd Floor<br />
+Hartford, CT 06106</p>
+<p><a href="wp-content/uploads/2016/06/CT.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Delaware</h2>
+<p><strong>Delaware State Conference</strong><br />
+P.O. BOX 986<br />
+Georgetown, DE. 19947</p>
+<p><a href="wp-content/uploads/2016/06/DE.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>District of Columbia (Washington DC)</h2>
+<h3>Washington DC Branch</h3>
+<p>1000 U Street NW, Suite 100<br />
+Washington DC, 20001<br />
+<a href="mailto:naacp@naacpdc.org">naacp@naacpdc.org </a><br />
+<a href="http://naacpdc.org" target="_blank">naacpdc.org</a></p>
+<h2>Florida</h2>
+<p><strong>NAACP Florida State Conference</strong><br />
+P.O. Box 101060<br />
+Fort Lauderdale, FL 33310<br />
+<a href="mailto:flanaacp@aol.com">flanaacp@aol.com </a><br />
+<a href="http://www.flnaacp.com/" target="_blank">flnaacp.com</a></p>
+<p><a href="wp-content/uploads/2016/06/FL.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Georgia</h2>
+<p><strong>Georgia NAACP State Conference</strong><br />
+100 Edgewood Ave, SE, Suite 1610<br />
+Atlanta, Georgia 30303<br />
+<a href="mailto:info@naacpga.org">info@naacpga.org</a></p>
+<p><a href="wp-content/uploads/2016/06/GA.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Hawaii</h2>
+<p><strong>NAACP California Hawaii State Conference</strong><br />
+1215 K Street, Suite 609<br />
+Sacramento, CA 95814<br />
+<a href="http://www.ca-naacp.org/" target="_blank">ca-naacp.org</a></p>
+<p><strong>NAACP Honolulu Branch<br />
+</strong>P.O. Box 55<br />
+Honolulu, HI 9680</p>
+<h2>Idaho</h2>
+<p><strong>NAACP Tri-State Conference of Idaho-Nevada-Utah</strong><br />
+P.O. Box 26622<br />
+Salt Lake City, UT 84126-0622</p>
+<p><a href="wp-content/uploads/2016/06/ID.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Illinois</h2>
+<p><strong>NAACP Illinois State Conference</strong><br />
+2764 Balsam Ct.<br />
+Rockford, IL 61109</p>
+<p><a href="wp-content/uploads/2016/06/IL.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Indiana</h2>
+<p><strong>NAACP Indiana State Conference</strong><br />
+P.O. Box 64715<br />
+Gary, IN 46401</p>
+<p><a href="wp-content/uploads/2016/06/IN.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Iowa</h2>
+<p><strong>NAACP Iowa Nebraska State Conference</strong><br />
+1620 Pleasant Street, Suite 210<br />
+Des Moines, IA 50314<br />
+<a href="mailto:IowaNebraskaNAACP@gmail.com">IowaNebraskaNAACP@gmail.com</a><br />
+<a href="mailto:info@IowaNebraskaNAACP.org">info@IowaNebraskaNAACP.org</a><br />
+<a href="http://www.iowanebraskanaacp.org/" target="_blank">iowanebraskanaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/IA.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Kansas</h2>
+<p><strong>NAACP Kansas State Conference</strong><br />
+P.O. Box 21298<br />
+Wichita, KS 67208<br />
+<a href="mailto:president@kansasnaacp.org">president@kansasnaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/KS.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Kentucky</h2>
+<p><strong>NAACP Kentucky State Conference</strong><br />
+P.O. Box 161173<br />
+Louisville, KY 40256<br />
+<a href="mailto:rcunnin3@bellsouth.net">rcunnin3@bellsouth.net </a></p>
+<p><a href="wp-content/uploads/2016/06/KY.pdf">Find Local NAACP Units in this state</a></p>
+<h2>Louisiana</h2>
+<p><strong>NAACP Louisiana State Conference</strong><br />
+3313 Government Street<br />
+Baton Rouge, LA 70806<br />
+<a href="mailto:lanaacp1@juno.com">lanaacp1@juno.com</a></p>
+<p><a href="wp-content/uploads/2017/03/LA.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Maine</h2>
+<p><strong>NAACP New England Area Conference  </strong><br />
+P.O. Box 320128<br />
+West Roxbury, MA 02132<br />
+<a href="http://www.naacp.me/">www.naacp.me</a> (Portland Branch)</p>
+<p><a href="wp-content/uploads/2016/06/ME.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Maryland</h2>
+<p><strong>NAACP Maryland State Conference</strong><br />
+P.O. Box 9702<br />
+Arnold, MD 21012</p>
+<p><a href="wp-content/uploads/2016/06/MD.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Massachusetts</h2>
+<p><strong>NAACP New England Area Conference</strong><br />
+P.O. Box 320128<br />
+West Roxbury, MA 02132</p>
+<p><a href="wp-content/uploads/2016/06/MA.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Michigan</h2>
+<p>15400 Grand River Avenue, Floor M,<br />
+Detroit, MI 48227<br />
+<a href="mailto:naacp.michigan@gmail.com">naacp.michigan@gmail.com </a></p>
+<p><a href="wp-content/uploads/2017/11/MI.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Minnesota</h2>
+<p><strong>Minnesota NAACP</strong><br />
+P.O. Box 6472<br />
+Rochester, MN 55903</p>
+<p><a href="wp-content/uploads/2016/06/MN.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Mississippi</h2>
+<p><strong>NAACP Mississippi State Conference</strong><br />
+1072 W. Lynch Street, Suite 10<br />
+Jackson, MS 39203<br />
+<a href="mailto:naacpms@bellsouth.net">naacpms@bellsouth.net </a><br />
+<a href="http://www.naacpms.org" target="_blank">naacpms.org</a></p>
+<p><a href="wp-content/uploads/2016/06/MS.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Missouri</h2>
+<p><strong>NAACP Missouri State Conference</strong><br />
+P.O. Box 104221<br />
+Jefferson City, MO 65110<br />
+<a href="mailto:jcnaacp@gmail.com">jcnaacp@gmail.com</a></p>
+<p><a href="wp-content/uploads/2016/06/MO-1.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Montana</h2>
+<p><strong>NAACP Colorado Montana Wyoming State Area Conference</strong><br />
+P.O. Box 15583<br />
+Colorado Springs, CO 80935<br />
+(844)UR-NAACP (876-2227)<br />
+<a href="mailto:stateconferencenaacp@gmail.com">stateconferencenaacp@gmail.com</a></p>
+<h2>Nebraska</h2>
+<p><strong>NAACP Iowa Nebraska State Conference</strong><br />
+1620 Pleasant Street, Suite 210<br />
+Des Moines, IA 50314<br />
+<a href="mailto:IowaNebraskaNAACP@gmail.com">IowaNebraskaNAACP@gmail.com</a><br />
+<a href="mailto:info@IowaNebraskaNAACP.org">info@IowaNebraskaNAACP.org</a><br />
+<a href="http://www.iowanebraskanaacp.org/" target="_blank">iowanebraskanaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/NE.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Nevada</h2>
+<p><strong>NAACP Tri-State Conference of Idaho-Nevada-Utah</strong><br />
+P.O. Box 26622<br />
+Salt Lake City, UT 84126-0622<br />
+<a href="mailto:jdwnaacp@att.net">jdwnaacp@att.net</a></p>
+<p><a href="wp-content/uploads/2016/06/NV.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>New Hampshire</h2>
+<p><strong>NAACP New England Area Conference</strong><br />
+P.O. Box 320128<br />
+West Roxbury, MA 02132</p>
+<p><a href="wp-content/uploads/2016/06/NH.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>New Jersey</h2>
+<p><strong>NAACP New Jersey State Conference</strong><br />
+4326 Harbor Beach Blvd. #775<br />
+Brigantine, NJ 08203<br />
+<a href="mailto:president@njnaacp.org">president@njnaacp.org</a><br />
+<a href="http://njnaacp.org/" target="_blank">njnaacp.org</a></p>
+<p><a href="wp-content/uploads/2018/01/NJ.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>New Mexico</h2>
+<p><strong>NAACP New Mexico State Conference</strong><br />
+P.O. Box 645<br />
+Carlsbad, NM 88221<br />
+(575) 706-1934<br />
+<a href="mailto:nmnaacp@yahoo.com">nmnaacp@yahoo.com</a><br />
+nmnaacp.com</p>
+<p><a href="wp-content/uploads/2016/06/NM.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>New York</h2>
+<p><strong>NAACP New York State Conference</strong><br />
+5 Bryant Park, Suite 820<br />
+New York, NY 10018<br />
+<a href="http://nysnaacp.org">nysnaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/NY.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>North Carolina</h2>
+<p><strong>North Carolina NAACP State Conference</strong><br />
+114 West Parrish Street<br />
+Durham, NC 27701<br />
+<a href="mailto:info@naacpnc.org">info@naacpnc.org</a><br />
+<a href="mailto:forwardtogether@naacpnc.org">forwardtogether@naacpnc.org</a><br />
+<a href="http://www.naacpnc.org/">naacpnc.org</a></p>
+<p><a href="wp-content/uploads/2016/06/NC.pdf">Find Local NAACP Units in this state</a></p>
+<h2>North Dakota</h2>
+<p><strong>Minnesota NAACP</strong><br />
+P.O. Box 6472<br />
+Rochester, MN 55903</p>
+<h2>Ohio</h2>
+<p><strong>NAACP Ohio State Conference</strong><br />
+P.O. Box 29014<br />
+Columbus, OH 43229<br />
+<a href="mailto:ohnaacpst@sbcglobal.net">ohnaacpst@sbcglobal.net</a><br />
+<a href="http://www.ohioconferencenaacp.org/" target="_blank">ohioconferencenaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/OH.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Oklahoma</h2>
+<p><strong>NAACP Oklahoma State Conference</strong><br />
+P.O. Box 11024<br />
+Oklahoma City, OK 73136<br />
+<a href="mailto:adouglas@oknaacp.org">adouglas@oknaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/OK.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Oregon</h2>
+<p><strong>NAACP Alaska Oregon Washington State-Area Conference</strong><br />
+P.O. Box 4144<br />
+Renton, WA 98057<br />
+<a href="mailto:president.aowsac@gmail.com">president.aowsac@gmail.com</a></p>
+<p><a href="wp-content/uploads/2016/06/OR.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Pennsylvania</h2>
+<p><strong>NAACP Pennsylvania State Conference</strong><br />
+P.O. Box 922<br />
+Levittown, PA 19058-0922<br />
+<a href="mailto:naacppastate@gmail.com">naacppastate@gmail.com</a><br />
+<a href="http://pastatenaacp.org/" target="_blank">pastatenaacp.org</a></p>
+<p><a href="wp-content/uploads/2018/03/PA.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Rhode Island</h2>
+<p><strong>NAACP New England Area Conference</strong><br />
+P.O. Box 320128<br />
+West Roxbury, MA 02132</p>
+<p><a href="wp-content/uploads/2016/06/RI.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>South Carolina</h2>
+<p><strong>NAACP South Carolina State Conference</strong><br />
+611 N. Main Street<br />
+Columbia, SC 29203<br />
+<a href="mailto:scnaacp@bellsouth.net">scnaacp@bellsouth.net</a><br />
+<a href="mailto:info@scnaacp.org">info@scnaacp.org</a><br />
+<a href="http://scnaacp.org/" target="_blank">scnaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/SC.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>South Dakota</h2>
+<p><strong>Minnesota NAACP</strong><br />
+P.O. Box 6472<br />
+Rochester, MN 55903</p>
+<h2>Tennessee</h2>
+<p><strong>NAACP Tennessee State Conference</strong><br />
+27 Brentshire Square, Suite A<br />
+Jackson, TN 38305<br />
+<a href="mailto:tnnaacp3@bellsouth.net">tnnaacp3@bellsouth.net </a><br />
+<a href="http://www.tnnaacp.org/" target="_blank">tnnaacp.org</a></p>
+<p><a href="wp-content/uploads/2016/06/TN.pdf">Find Local NAACP Units in this state</a></p>
+<h2>Texas</h2>
+<p><strong>NAACP Texas State Conference</strong><br />
+P.O. Box 380777<br />
+Duncanville, TX 75238</p>
+<p><a href="wp-content/uploads/2016/06/TX.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Utah</h2>
+<p><strong>NAACP Tri-State Conference of Idaho-Nevada-Utah</strong><br />
+P.O. Box 26622<br />
+Salt Lake City, UT 84126-0622<br />
+<a href="mailto:jdwnaacp@att.net">jdwnaacp@att.net</a><br />
+<a href="http://naacptristateinu.org/" target="_blank">naacptristateinu.org</a></p>
+<p><a href="wp-content/uploads/2016/06/UT.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Vermont</h2>
+<p><strong>NAACP, New England Area Conference</strong><br />
+P.O. Box 320128<br />
+West Roxbury, MA 02132</p>
+<h2>Virginia</h2>
+<p><strong>NAACP Virginia State Conference</strong><br />
+P.O. Box 27212<br />
+Richmond, Virginia 23261</p>
+<p><a href="wp-content/uploads/2016/06/VA.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Washington</h2>
+<p><strong>NAACP Alaska Oregon Washington State-Area Conference</strong><br />
+P.O. Box 4144<br />
+Renton, WA 98057<br />
+<a href="mailto:president.aowsac@gmail.com">president.aowsac@gmail.com</a></p>
+<p><a href="wp-content/uploads/2017/02/WA.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>West Virginia</h2>
+<p><strong>NAACP West Virginia State Conference</strong><br />
+20 Stackyard Road<br />
+Wheeling, WV 26003</p>
+<p><a href="wp-content/uploads/2016/06/WV.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Wisconsin</h2>
+<p><strong>NAACP Wisconsin State Conference</strong></p>
+<p>P.O. Box 45102<br />
+Madison, WI 53744<br />
+<a href="mailto:naacpwi@hotmail.com">naacpwi@hotmail.com </a></p>
+<p><a href="wp-content/uploads/2016/06/WI.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<h2>Wyoming</h2>
+<p><strong>NAACP Colorado Montana Wyoming State Area Conference</strong><br />
+P.O. Box 15583<br />
+Colorado Springs, CO 80935<br />
+stateconferencenaacp@gmail.com<br />
+844-UR-NAACP (876-2227)</p>
+<p><a href="wp-content/uploads/2016/06/WY.pdf" target="_blank">Find Local NAACP Units in this state</a></p>
+<p>&nbsp;</p>
+
+                          </section> <!-- /.entry-content -->
+
+        </div> <!-- /.small-12.columns -->
+      </div> <!-- /.row -->
+
+
+    </article> <!-- /.article -->
+
+              
+  </div> <!-- /.page-content -->
+
+    </main> <!-- /.main-content -->
+  </div> <!-- /.page-row.page-row-expanded -->
+
+      <footer class="site-footer page-row" role="contentinfo">
+      
+<section class="footer-top">
+  <div class="row">
+    <div class="small-12 columns">
+      <a href="index.html" class="footer__logo-wrapper">
+        <svg class="footer__logo">
+                      <use xlink:href="http://www.naacp.org/wp-content/themes/naacp/assets/img/icons.svg#icon-naacp-logo-stacked-white"></use>
+                  </svg>
+      </a>
+      <ul class="menu footer__menu-large">
+                  <li class="footer__menu-large__item">
+            <a href="https://donate.naacp.org/page/contribute/make-a-contribution">Donate Now</a>
+          </li>
+                  <li class="footer__menu-large__item">
+            <a href="index.html?p=115">Become a Member</a>
+          </li>
+                  <li class="footer__menu-large__item">
+            <a href="index.html?p=113">Find Your Local Unit</a>
+          </li>
+                  <li class="footer__menu-large__item">
+            <a href="http://action.naacp.org/page/s/quick-sign-up">Sign Up</a>
+          </li>
+                  <li class="footer__menu-large__item">
+            <a href="index.html?p=130">Contact Us</a>
+          </li>
+                <li class="social-small">
+          <ul class="social-icons menu simple"><li class="facebook-link"><a href="https://www.facebook.com/naacp/" target="_blank" class="ss-facebook"><span class="hide">Facebook</span></a></li><li class="twitter-link"><a href="https://twitter.com/NAACP" target="_blank" class="ss-twitter"><span class="hide">Twitter</span></a></li><li class="instagram-link"><a href="https://www.instagram.com/naacp/" target="_blank" class="ss-instagram"><span class="hide">Instagram</span></a></li><li class="youtube-link"><a href="https://www.youtube.com/user/naacpvideos/videos" target="_blank" class="ss-youtube"><span class="hide">Youtube</span></a></li></ul>
+        </li>
+      </ul>
+
+      <ul class="menu footer__menu-small">
+                  <li>
+            <a href="index.html?p=893">Employment at the NAACP</a>
+          </li>
+                  <li>
+            <a href="index.html?p=135">Field Resources &#038; Publications</a>
+          </li>
+                  <li>
+            <a href="index.html?p=769">Awards &#038; Fellowships</a>
+          </li>
+                  <li>
+            <a href="index.html?p=1202">Terms of Use</a>
+          </li>
+                  <li>
+            <a href="index.html?p=1201">Privacy Policy</a>
+          </li>
+                  <li>
+            <a href="http://www.naacpcompanystore.org/">NAACP Store</a>
+          </li>
+              </ul>
+
+      <p class="footer__copyright">Copyright &copy; 2018 NAACP. All rights reserved.</p>
+    </div>
+  </div>
+</section>
+<section class="footer-bottom">
+  <div class="row">
+    <div class="small-12 columns">
+      <h2 class="widgettitle">Are You With Us?</h2>
+			<div class="textwidget"><a class="btn btn--orange-outline" href="http://www.naacp.org/membership">Become A Member</a></div>
+    </div>
+  </div>
+</section>
+    </footer> <!-- /.site-footer -->
+  
+  <script type='text/javascript' src='wp-content/plugins/bsd-signup-form/bsd-signup-form.min.js?ver=0.0.2' defer ''></script>
+<script type='text/javascript' src='wp-content/themes/naacp/assets/js/source.js?ver=1.0.0' defer ''></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js?ver=4.6.1' defer ''></script>
+
+</body>

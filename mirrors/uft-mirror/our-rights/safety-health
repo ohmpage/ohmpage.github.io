@@ -1,0 +1,809 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Safety &amp; Health! | United Federation of Teachers</title>
+
+<meta name="description" content="The mission of the UFT’s Safety &amp; Health Department is to protect all UFT members — whether teachers, school-related professionals, child care providers or others — from the occupational hazards that can confront them." />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta http-equiv="x-ua-compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQIDWFJACgYBUFBWDw=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(14)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(14)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(14)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",c)}function i(t){y.push(t),h&&(w=-w,b.data=w)}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(14)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,g),g.prototype=p.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var w=1,b=document.createTextNode(w);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[g[n]];return f&&f.push([w,n,r,i]),i}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",g[n]=e,e in u||(u[e]=[])})}var y={},g={},w={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return w}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=w.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(y,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(12),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(9);var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},g=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),w=e.exports={offset:a(),origin:v,features:{},xhrWrappable:g};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,7]);</script> 
+
+<!-- Google Webmaster Tools site verification. To keep active, do not remove -->
+<meta name="google-site-verification" content="bk5WkrfN0V4RuIpGNQiPcBP8KCDEAInwswndFBABBtY" />
+
+
+<!-- FONTS -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:700|Open+Sans:300,300italic,400,400italic,700|Open+Sans+Condensed:700">
+
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="http://www.uft.org/sites/all/themes/custom/uft/js/swipebox/css/swipebox.min.css"><link type="text/css" rel="stylesheet" media="all" href="../files/css/css_acd7307ce0f796b4698f583ab4f6cebe.css" />
+<link type="text/css" rel="stylesheet" media="print" href="../files/css/css_25c0b4c42efc4d6286dfdb28de7ecdd7.css" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/contrib/zen/zen/ie.css?K" />
+<![endif]-->
+
+
+<!-- Javascript -->
+
+<!--[if lte IE 8]>
+
+<link rel="stylesheet" href="/sites/all/themes/custom/uft/css/ie-static.css">
+<script src="/sites/all/themes/custom/uft/js/html5-shiv.js"></script>
+<script>document.createElement('video')</script>
+
+<![endif]-->
+
+
+<script type="text/javascript" src="../files/js/js_0028b3b3964546614537c809c3e41880.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fill":"#fff8c7","padding":"10px","strokeStyle":"#CC0","cornerRadius":0,"cssStyles":{"fontFamily":"\"lucida grande\",tahoma,verdana,arial,sans-serif","fontSize":"10px"},"strokeWidth":1,"spikeLength":30,"shadowBlur":4,"shadowColor":"#d7e3f9","cssSelect":".beautytips","list":["fill","padding","strokeStyle","cornerRadius","cssStyles","strokeWidth","spikeLength","shadowBlur","shadowColor"]}},"externalpdf":1,"fivestar":{"titleUser":"Your rating: ","titleAverage":"Average: ","feedbackSavingVote":"Saving your vote...","feedbackVoteSaved":"Your vote has been saved.","feedbackDeletingVote":"Deleting your vote...","feedbackVoteDeleted":"Your vote has been deleted."},"googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+if (Drupal.jsEnabled) {
+  $(document).ready(function() {
+    $.fn.media.defaults.flvPlayer = '/mediaplayer.swf';
+    $.fn.media.defaults.mp3Player = '/sites/all/libraries/audio-player/player.swf';
+    $('.audio a').media( { width: 400, height: 30 } );
+  });  
+}
+
+//--><!]]>
+</script>
+
+
+<!-- Facebook SDK -->
+
+ 
+
+<script>
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '203024336433494',
+          xfbml      : true,
+          version    : 'v2.4'
+        });
+	  };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));	   
+	
+
+    </script>
+	
+
+</head>
+
+<body class="not-front not-logged-in node-type-page two-sidebars page-our-rights-safety-health section-our-rights page-our-rights-safety-health section-our-rights full-node node-type-page headerimg-3 no-message ">
+
+<!--  Masthead background stripes, top and bottom  -->
+	
+    <div id="masthead-stripe-container">
+		<div class="masthead-stripe-top"></div>
+		<div class="masthead-stripe-bottom"></div>
+    </div>
+
+<div id="wrapper">
+  <div id="page"><div id="page-inner">
+    
+    <div id="skip-to-nav"><a href="safety-health#content">Skip to Navigation</a></div>
+
+    <div id="header"><div id="header-inner" class="clear-block">
+
+	
+	  <div id="logo-wrapper">
+                      <div id="logo">
+			<a href="../index.html" class="logo-link">
+			<!-- &#xe00b; --> 
+			<svg version="1.1"
+			xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+			x="0px" y="0px" viewBox="-0.1 -0.2 180 140" overflow="visible" enable-background="new -0.1 -0.2 180 140" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+			<defs></defs>
+			<path fill="#FFFFFF" d="M108.1,47.7c-3.6,3.4-6.8,7.2-9.2,11.5c4.2-3.2,8.8-5.9,13.6-8.2c0,0,0,0,0.1,0c10.2-4.9,21.4-7.9,32.3-9.5c11.2-1.6,21.9-1.7,30.9-0.7c0,0-2.2-1.6-5.3-3.6c-6.1-4.1-15.6-10.3-17.7-10.2C141.4,27.8,121.7,34.9,108.1,47.7L108.1,47.7z"/>
+			<path fill="#FFFFFF" d="M104.1,44.4c-1.5,3-2.9,6.2-4.2,9.7c2.2-2.8,4.4-5.3,6.5-7.6c14-14.9,26.5-18.5,51.2-27.2c0,0-18.9-10.1-21.6-8.6C124.9,16.5,113.4,25.2,104.1,44.4L104.1,44.4z"/>
+			<path fill="#FFFFFF" d="M89.9,36.8C79.7,13,48.5,3.6,48.5,3.6c12.8,9.2,26.3,27.5,31.8,45c1.4,3.5,2.6,7.3,3.8,11.9h5.8h0h5.8c1.2-4.6,2.4-8.4,3.8-11.9c5.4-17.4,19-35.7,31.8-45C131.2,3.6,100,13,89.9,36.8L89.9,36.8z"/>
+			<path fill="#FFFFFF" d="M71.6,47.7c3.6,3.4,6.8,7.2,9.2,11.5c-4.2-3.2-8.8-5.9-13.6-8.2c0,0,0,0-0.1,0C56.9,46,45.7,43,34.8,41.4C23.7,39.8,12.9,39.7,4,40.7c0,0,2.2-1.6,5.3-3.6c6.1-4.1,15.6-10.3,17.7-10.2C38.3,27.8,58.1,34.9,71.6,47.7L71.6,47.7z"/>
+			<path fill="#FFFFFF" d="M75.6,44.4c1.5,3,2.9,6.2,4.2,9.7c-2.2-2.8-4.4-5.3-6.5-7.6c-14-14.9-26.5-18.5-51.2-27.2c0,0,18.9-10.1,21.6-8.6C54.8,16.5,66.3,25.2,75.6,44.4L75.6,44.4z"/>
+			<path fill="#FFFFFF" d="M89.9,63.5h-7.4c-11-9.6-54.2-20.8-68.4-20c-0.4,0-0.9,0.3-1.4,0.7l0,0C8.6,47.3,1.3,58.1,0,59c38.2-3,63.7,1.6,75.7,4.7c1.6,0.4,2.9,0.8,4,1.1c1.1,0.3,2,0.6,2.7,0.9v2.1h7.4h0h7.4v-2.1c0.7-0.2,1.6-0.5,2.7-0.9c1.1-0.3,2.5-0.7,4-1.1c12.1-3.1,37.5-7.7,75.7-4.7c-1.3-0.9-8.6-11.7-12.6-14.8l0,0c-0.5-0.4-1-0.7-1.4-0.7c-14.2-0.8-57.4,10.4-68.4,20H89.9L89.9,63.5z"/>
+			<path fill="#FFFFFF" d="M73.4,76.9v34.4c0,7.9-0.3,15.6-6.4,21.6c-5.1,5-13.1,6.8-20.3,6.8c-7.1,0-15.2-1.8-20.3-6.8c-6.1-5.9-6.4-13.7-6.4-21.6V76.9H36v32.2c0,7.9,0.6,16.6,10.8,16.6s10.8-8.7,10.8-16.6V76.9H73.4z"/>
+			<path fill="#FFFFFF" d="M93.8,90.3v10.2h17.4V114H93.8v24H77.9V76.9H113v13.5H93.8z"/>
+			<path fill="#FFFFFF" d="M146.5,138h-15.9V90.3h-13.1V76.9h42.2v13.5h-13.1V138z"/>
+			<ellipse fill="#FFFFFF" cx="89.9" cy="10.4" rx="9.3" ry="10.4"/>
+			</svg>
+			</a>
+			<div id="logo-text">
+			<a href="../index.html"><span class="logo-title">United Federation of Teachers</span><span class="logo-subtitle">a union of professionals</span></a>
+			</div>
+			</div>
+          
+        </div> <!-- /#logo-title -->
+            
+              <div id="login-search-box" class="region region-header">
+      		
+		<div id="user-bar"><a href="http://www.uft.org/user?destination=node%2F608">Login</a> | <a href="http://www.uft.org/user/register">Sign Up</a></div>		<div id="block-search-0" class="block block-search region-odd odd region-count-1 count-3 clear-block block block-search "><div class="block-inner">
+
+  
+  <div class="content">
+    <form action="safety-health"  accept-charset="UTF-8" method="post" id="search-block-form">
+<div><div class="container-inline">
+  <div class="form-item" id="edit-search-block-form-1-wrapper">
+ <label for="edit-search-block-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-L1s5_FHrxZvdPGWFsnnoLwKZeFdL5cMkAn67hRG91M0" value="form-L1s5_FHrxZvdPGWFsnnoLwKZeFdL5cMkAn67hRG91M0"  />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+</div>
+
+</div></form>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-menu-menu-social-media-icons" class="block block-menu region-even even region-count-2 count-4 clear-block block block-menu social-media-icons"><div class="block-inner">
+
+      <div class="title">Social media</div>
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first ampxe"><a href="http://www.facebook.com/uftny" title="Facebook: Like us">&#xe602;</a></li>
+<li class="leaf ampxe"><a href="http://twitter.com/uft" title="Twitter: Follow us">&#xe604;</a></li>
+<li class="leaf last ampxea"><a href="http://instagram.com/uftny" title="Instagram: Follow us">&#xea92;</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+        </div> <!-- /#header-blocks -->
+      	  
+	<!-- navigation toggle -->
+			  
+	<div id="hamburger"><span class="patty"></span><span class="patty"></span></div>
+	
+	
+	<!-- search toggle -->
+	
+	<div id="search-box-toggle"></div>
+	
+	  
+    </div></div> <!-- /#header-inner, /#header -->
+
+    <div id="main"><div id="main-inner" class="clear-block with-navbar">
+	
+	      		  
+	    <div id="navbar"><div id="navbar-inner" class="clear-block region region-navbar testing">
+
+                      <div id="primary" class="clear-block">
+              
+              <ul class="nice-menu nice-menu-down" id="nice-menu-0"><li id="menu-9283" class="menuparent menu-path-who-we-are"><a href="../who-we-are" title="">Who We Are</a><ul><li id="menu-9319" class="menu-path-node-2069"><a href="../who-we-are/union-basics" title="">Union Basics</a></li>
+<li id="menu-9320" class="menu-path-node-2074"><a href="../who-we-are/history-mission" title="">History &amp; Mission</a></li>
+<li id="menu-13730" class="menu-path-node-2070"><a href="../who-we-are/leadership" title="">Leadership</a></li>
+<li id="menu-9322" class="menu-path-node-493"><a href="../boroughs" title="">UFT Borough Offices</a></li>
+<li id="menu-9323" class="menu-path-faqs"><a href="../faqs" title="">FAQs</a></li>
+<li id="menu-9324" class="menu-path-node-2076"><a href="../who-we-are/merchandise" title="">UFT Merchandise</a></li>
+<li id="menu-9325" class="menu-path-node-2080"><a href="../contact" title="Comprehensive directory-style contact information - includes information by department, contacts for organizing">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-9284" class="menuparent menu-path-where-we-stand"><a href="../where-we-stand" title="">Where We Stand</a><ul><li id="menu-9832" class="menu-path-where-we-stand-issues"><a href="../where-we-stand/issues" title="">Our Issues</a></li>
+<li id="menu-9805" class="menu-path-where-we-stand-union-resolutions"><a href="../where-we-stand/union-resolutions" title="">Union Resolutions</a></li>
+<li id="menu-9833" class="menu-path-where-we-stand-testimony-speeches"><a href="../where-we-stand/testimony-speeches" title="">Testimony</a></li>
+<li id="menu-9834" class="menu-path-where-we-stand-reports"><a href="../where-we-stand/reports" title="">Reports</a></li>
+</ul>
+</li>
+<li id="menu-9285" class="menuparent menu-path-our-rights"><a href="../our-rights.1" title="">Our Rights</a><ul><li id="menu-9823" class="menu-path-node-609"><a href="contracts" title="">Contracts</a></li>
+<li id="menu-16589" class="menu-path-node-7199"><a href="salary" title="Salary">Salary</a></li>
+<li id="menu-9836" class="menu-path-node-2071"><a href="absences-leaves-sabbaticals" title="">Absences, Leaves &amp; Sabbaticals</a></li>
+<li id="menu-11261" class="menu-path-node-608"><a href="safety-health" title="">Safety &amp; Health</a></li>
+<li id="menu-9839" class="menu-path-node-2094"><a href="injured-on-the-job" title="">Injured on the Job</a></li>
+<li id="menu-13646" class="menu-path-node-1311"><a href="doe-documents" title="">DOE Documents</a></li>
+<li id="menu-112616" class="menu-path-node-45194"><a href="chapter-elections" title="">Chapter Elections</a></li>
+<li id="menu-13717" class="menu-path-our-rights-know-your-rights"><a href="know-your-rights" title="">Know Your Rights</a></li>
+<li id="menu-67522" class="menu-path-node-8587"><a href="memorandums-agreement" title="Memorandums of Agreement">Memorandums of Agreement</a></li>
+<li id="menu-58722" class="menu-path-node-7281"><a href="contracts-print" title="Contracts for all titles can be accessed without login here.">DOE Contracts - PDFs</a></li>
+<li id="menu-196347" class="menu-path-node-96310"><a href="non-doe-contracts-pdf-versions" title="Non-DOE contracts - PDF versions">Non-DOE contracts - PDFs</a></li>
+</ul>
+</li>
+<li id="menu-9286" class="menuparent menu-path-our-benefits"><a href="../our-benefits" title="">Our Benefits</a><ul><li id="menu-9802" class="menu-path-health-benefits"><a href="../health-benefits" title="">Health Benefits</a></li>
+<li id="menu-13802" class="menu-path-node-1476"><a href="../our-benefits/pension" title="Pension">Pension</a></li>
+<li id="menu-9850" class="menu-path-node-2276"><a href="../our-benefits/member-help-programs" title="">Member Help Programs</a></li>
+<li id="menu-9851" class="menu-path-node-1887"><a href="../our-benefits/discounts-and-promotions" title="">Discounts &amp; Promotions</a></li>
+<li id="menu-9852" class="menu-path-node-583"><a href="../our-benefits/uft-forms" title="">UFT Forms</a></li>
+</ul>
+</li>
+<li id="menu-9287" class="menuparent menu-path-our-chapters"><a href="../our-chapters" title="">Our Chapters</a><ul><li id="menu-201306" class="menu-path-node-96655"><a href="../chapters/administrative-ed-analysts-and-officers" title="Administrative Education Analysts and Officers">Administrative Education Analysts and Officers</a></li>
+<li id="menu-191096" class="menu-path-node-89339"><a href="../chapters/audiologists" title="Audiologists Chapter">Audiologists</a></li>
+<li id="menu-139892" class="menu-path-node-60295"><a href="../chapters/education-officers-education-analysts" title="Education Officers &amp; Education Analysts">Education Officers &amp; Education Analysts</a></li>
+<li id="menu-13205" class="menu-path-node-45"><a href="../chapters/guidance-counselors" title="Guidance Counselors" class="active">Guidance Counselors</a></li>
+<li id="menu-13206" class="menu-path-node-1259"><a href="../chapters/hearing-education-services" title="Hearing Education Services">Hearing Education Services</a></li>
+<li id="menu-201309" class="menu-path-node-96823"><a href="../chapters/hearing-officers-session" title="Hearing Officers (Per Session)">Hearing Officers (Per Session)</a></li>
+<li id="menu-13207" class="menu-path-node-1261"><a href="../chapters/lab-specialists" title="Lab Specialists">Lab Specialists</a></li>
+<li id="menu-13804" class="menu-path-node-1477"><a href="../chapters/occupational-physical-therapists" title="Occupational &amp; Physical Therapists">Occupational / Physical Therapists</a></li>
+<li id="menu-12179" class="menu-path-node-704"><a href="../chapters/paraprofessionals" title="Paraprofessionals">Paraprofessionals</a></li>
+<li id="menu-23142" class="menu-path-node-6666"><a href="../chapters/retirees" title="Retired Teachers">Retired Teachers</a></li>
+<li id="menu-13868" class="menu-path-node-1618"><a href="../chapters/school-nurses" title="School Nurses">School Nurses</a></li>
+<li id="menu-13806" class="menu-path-node-1479"><a href="../chapters/secretaries" title="School Secretaries">School Secretaries</a></li>
+<li id="menu-13808" class="menu-path-node-1480"><a href="../chapters/social-workers-psychologists" title="Social Workers &amp; Psychologists">Social Workers &amp; Psychologists</a></li>
+<li id="menu-13812" class="menu-path-node-1483"><a href="../chapters/speech-improvement" title="Speech Improvement">Speech Improvement</a></li>
+<li id="menu-123897" class="menu-path-node-53526"><a href="../chapters/supervisors-nurses-therapists" title="Supervisors of Nurses &amp; Therapists">Supervisors of Nurses &amp; Therapists</a></li>
+<li id="menu-13867" class="menu-path-node-1610"><a href="../chapters/teachers-assigned" title="Teachers Assigned">Teachers Assigned</a></li>
+<li id="menu-188145" class="menu-path-node-87433"><a href="../chapters/vision-education-services" title="Vision Education Services">Vision Education Services</a></li>
+<li id="menu-57208" class="menu-path-node-8092"><a href="../chapters/other-doe" title="Other DOE Chapters">Other DOE Chapters</a></li>
+<li id="menu-58879" class="menu-path-node-8220"><a href="../chapters/charter-schools" title="Charter School Chapters">Charter School Chapters</a></li>
+<li id="menu-58880" class="menu-path-node-8221"><a href="../chapters/non-doe-education" title="Non-DOE Education Chapters">Non-DOE Education Chapters</a></li>
+<li id="menu-13201" class="menu-path-node-1252"><a href="../chapters/federation-nurses" title="Federation of Nurses/UFT">Federation of Nurses</a></li>
+<li id="menu-202475" class="menu-path-node-98766"><a href="../chapters/united-cerebral-palsy-nyc" title="United Cerebral Palsy of NYC">United Cerebral Palsy of NYC</a></li>
+<li id="menu-191285" class="menu-path-node-91665"><a href="../chapters/family-child-care-providers" title="Family Child Care Providers">Family Child Care Providers</a></li>
+</ul>
+</li>
+<li id="menu-9288" class="menuparent menu-path-get-involved"><a href="../get-involved" title="">Get Involved</a><ul><li id="menu-9824" class="menu-path-campaigns"><a href="../campaigns" title="Campaigns page displays ongoing / current opportunities to get involved.">UFT Campaigns</a></li>
+<li id="menu-10416" class="menu-path-node-5936"><a href="../get-involved/organizing" title="">Organizing</a></li>
+<li id="menu-10417" class="menu-path-node-5937"><a href="../get-involved/community-partners" title="">Community Partners</a></li>
+<li id="menu-10418" class="menu-path-node-6131"><a href="../political-action" title="">About UFT Political Action</a></li>
+<li id="menu-10419" class="menu-path-committees"><a href="../committees" title="">Union Committees</a></li>
+<li id="menu-10420" class="menu-path-calendar"><a href="../calendar?category=111" title="">Action Calendar</a></li>
+<li id="menu-195593" class="menu-path-node-91830"><a href="../campaigns/sign-text-messaging" title="">Sign up for text alerts</a></li>
+</ul>
+</li>
+<li id="menu-9289" class="menuparent menu-path-teaching"><a href="../teaching" title="">Teaching</a><ul><li id="menu-9825" class="menu-path-teaching-career-timeline"><a href="../teaching/career-timeline" title="Teacher-specific timeline">Career Timeline</a></li>
+<li id="menu-10428" class="menu-path-node-2329"><a href="../teaching/uft-teacher-center" title="">Teacher Center</a></li>
+<li id="menu-9837" class="menu-path-node-2088"><a href="../teaching/teacher-evaluation" title="">Teacher Evaluation</a></li>
+<li id="menu-10429" class="menu-path-node-2330"><a href="../teaching/english-language-learners" title="">English Language Learners</a></li>
+<li id="menu-10430" class="menu-path-node-1866"><a href="../teaching/classroom-resources" title="">Classroom Resources</a></li>
+<li id="menu-10431" class="menu-path-node-2331"><a href="../teaching/students-disabilities" title="">Students with Disabilities</a></li>
+<li id="menu-10432" class="menu-path-node-2332"><a href="../teaching/courses-workshops" title="">Courses / Workshops</a></li>
+<li id="menu-10433" class="menu-path-node-2333"><a href="../teaching/teachers-choice" title="">Teacher&#039;s Choice</a></li>
+<li id="menu-144225" class="menu-path-node-78603"><a href="../teaching/teacher-leadership" title="Teacher Leadership">Teacher Leadership</a></li>
+<li id="menu-10434" class="menu-path-node-2334"><a href="../teaching/transfer-opportunities" title="">Transfer Opportunities</a></li>
+<li id="menu-10435" class="menu-path-node-2360"><a href="../teaching/job-opportunities" title="">Job Opportunities</a></li>
+<li id="menu-196796" class="menu-path-node-96546"><a href="../teaching/certification" title="Certification">Certification</a></li>
+<li id="menu-201308" class="menu-path-www.uft.org-teaching-district-75"><a href="../teaching/district-75" title="District 75">District 75</a></li>
+<li id="menu-202540" class="menu-path-node-99338"><a href="../teaching/learnuft" title="Earn CTLE hours with LearnUFT">LearnUFT</a></li>
+<li id="menu-191152" class="menu-path-node-85522"><a href="../teaching/prose" title="PROSE">PROSE</a></li>
+<li id="menu-191163" class="menu-path-node-90953"><a href="../teaching/positive-learning-collaborative" title="Positive Learning Collaborative">Positive Learning Collaborative</a></li>
+<li id="menu-195597" class="menu-path-node-80376"><a href="../teaching/professional-development-resources" title="Professional Development Resources">Professional Development Resources</a></li>
+<li id="menu-143927" class="menu-path-node-67658"><a href="../teaching/team-high-school" title="Welcome to Team High School">Team High School</a></li>
+</ul>
+</li>
+<li id="menu-9290" class="menuparent menu-path-news"><a href="../news" title="">News</a><ul><li id="menu-9291" class="menu-path-news"><a href="../news" title="">Latest News</a></li>
+<li id="menu-10436" class="menu-path-news-ny-teacher"><a href="../news/ny-teacher" title="">NY Teacher Newspaper</a></li>
+<li id="menu-127111" class="menu-path-news-ny-teacher-archive-2016-2017"><a href="http://www.uft.org/news/ny-teacher/archive/2016-2017" title="">NY Teacher Archive</a></li>
+<li id="menu-9365" class="menu-path-news-op-eds"><a href="../news/op-eds" title="Op-Eds &amp; Letters to the Editor">Op-Eds &amp; Letters to the Editor</a></li>
+<li id="menu-10438" class="menu-path-videos"><a href="../videos" title="">Videos</a></li>
+<li id="menu-10439" class="menu-path-photos"><a href="../photos" title="">Photo Galleries</a></li>
+<li id="menu-10441" class="menu-path-school-visits"><a href="../school-visits" title="">School Visits</a></li>
+<li id="menu-63946" class="menu-path-news-press-releases"><a href="../news/press-releases" title="">Press Releases</a></li>
+<li id="menu-9366" class="menu-path-news-publications"><a href="../news/publications" title="Publications">Publications</a></li>
+<li id="menu-10440" class="menu-path-calendar"><a href="../calendar" title="">Calendar</a></li>
+<li id="menu-193479" class="menu-path-news-obituaries"><a href="../news/obituaries" title="">Obituaries</a></li>
+</ul>
+</li>
+</ul>
+<!-- Primary links limited by hardcoded whitelist uft_nice_menu_primary_links -->              
+            </div> <!-- /#primary -->
+                    
+                                
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      	
+		            <div id="breadcrumb"><span class="breadcrumb breadcrumb-0"><a href="../index.html">UFT.org Home</a></span><span class="breadcrumb"> > </span><span class="breadcrumb breadcrumb-1"><a href="../our-rights.1" title="">Our Rights</a></span><span class="breadcrumb"> > </span><span class="breadcrumb breadcrumb-2">Welcome to Safety &amp; Health!</span></div>         
+		 
+		
+	              <div id="sidebar-left"><div id="sidebar-left-inner" class="region region-left">
+          <div id="block-menu_block-6" class="block block-menu_block region-odd odd region-count-1 count-1"><div class="block-inner">
+
+      <div class="title"><a href="../our-rights.1">Our Rights</a></div>
+  
+  <div class="content">
+    <div class="menu-block-6 menu-name-primary-links parent-mlid-9285 menu-level-1">
+  <ul class="menu"><li class="collapsed first menu-mlid-9823 contracts"><a href="contracts" title="">Contracts</a></li>
+<li class="collapsed menu-mlid-16589 salary"><a href="salary" title="Salary">Salary</a></li>
+<li class="collapsed menu-mlid-9836 absencesleavesampsabbaticals"><a href="absences-leaves-sabbaticals" title="">Absences, Leaves &amp; Sabbaticals</a></li>
+<li class="expanded menu-mlid-11261 active active-trail safetyamphealth"><a href="safety-health" title="" class="active-trail active">Safety &amp; Health</a><ul class="menu"><li class="collapsed first menu-mlid-9843 schoolsafety"><a href="http://www.uft.org/our-rights/school-safety" title="">School Safety</a></li>
+<li class="collapsed menu-mlid-9844 environmentalhealthampsafety"><a href="http://www.uft.org/our-rights/environmental-health" title="">Environmental Health &amp; Safety</a></li>
+<li class="collapsed menu-mlid-101403 healthampwellness"><a href="http://www.uft.org/our-rights/health-wellness" title="Health and Wellness">Health &amp; Wellness</a></li>
+<li class="collapsed last menu-mlid-121478 antibullying"><a href="http://www.uft.org/our-rights/brave" title="Be BRAVE against bullying">Anti-Bullying</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-9839 injuredonthejob"><a href="injured-on-the-job" title="">Injured on the Job</a></li>
+<li class="collapsed menu-mlid-13646 doedocuments"><a href="doe-documents" title="">DOE Documents</a></li>
+<li class="collapsed menu-mlid-112616 chapterelections"><a href="chapter-elections" title="">Chapter Elections</a></li>
+<li class="leaf menu-mlid-13717 knowyourrights"><a href="know-your-rights" title="">Know Your Rights</a></li>
+<li class="leaf menu-mlid-67522 memorandumsofagreement"><a href="memorandums-agreement" title="Memorandums of Agreement">Memorandums of Agreement</a></li>
+<li class="leaf menu-mlid-58722 doecontractspdfs"><a href="contracts-print" title="Contracts for all titles can be accessed without login here.">DOE Contracts - PDFs</a></li>
+<li class="leaf last menu-mlid-196347 nondoecontractspdfs"><a href="non-doe-contracts-pdf-versions" title="Non-DOE contracts - PDF versions">Non-DOE contracts - PDFs</a></li>
+</ul></div>
+  </div>
+
+    
+  <a href="../index.html" class="link_home">UFT.org Home</a>
+</div></div> <!-- /block-inner, /block -->        </div></div> <!-- /#sidebar-left-inner, /#sidebar-left -->
+      	
+            
+      <div id="content"><div id="content-inner">
+        
+                  <div id="rounded-top"></div>
+        
+        
+                  <div id="content-header">
+                        
+                          <h1 class="title">Welcome to Safety &amp; Health!</h1>
+			  
+			<div class="outreach-page-tools social-shares">
+
+  
+     
+   <div class="email-block">
+      <a class="email" href="http://www.uft.org/forward?path=our-rights/safety-health"><span></span></a>    </div>
+	
+    
+      <div class="print-block">
+      <a class="print" href="http://www.uft.org/print/our-rights/safety-health"><span></span></a>    </div>
+	
+   
+
+  <!--  
+  <div class="resize">
+      <ul class="resizer">
+        <li class="small"><a onClick="_gaq.push(['_trackEvent', 'Page Tools', 'Text-Resize', '']);" href="#">A</a></li>
+        <li class="medium"><a onClick="_gaq.push(['_trackEvent', 'Page Tools', 'Text-Resize', '']);" href="#">A</a></li>
+        <li class="large"><a onClick="_gaq.push(['_trackEvent', 'Page Tools', 'Text-Resize', '']);" href="#">A</a></li>
+      </ul>
+    </div>
+-->
+  </div>					  
+            			
+			
+
+	    
+            
+            
+                      </div> <!-- /#content-header -->
+        
+        <div id="content-area">
+        <div id="node-608" class="node node-type-page"><div class="node-inner">
+
+    
+    
+  
+      <div class="meta">
+      
+      <!--         <div class="terms terms-inline"></div>
+       -->
+    </div>
+  
+  <div class="content">
+    <p>The mission of the <span data-scayt_word="UFT’s" data-scaytid="5">UFT’s</span> Safety &amp; Health Department is to protect all <span data-scayt_word="UFT" data-scaytid="6">UFT</span> members — whether teachers, school-related professionals, child care providers or others — from the occupational hazards that can confront them. We do this by providing information about potential hazards, advocating on behalf of members to address unsafe conditions, and collaborating with appropriate city and state agencies to enforce health and safety standards.</p>
+<div style="height:100px">
+	<p><a href="http://www.uft.org/our-rights/school-safety"><span id="styles-1" class="styles-wrapper">
+  <span class="styles nrembrowser-styles nrembrowser-styles-float-left"><span id="nrembrowser-thumbnail-0" class="nrembrowser-thumbnail "><img src="http://www.uft.org/files/photo/school-safety.jpg" alt="School Safety listing image" title="" width="73" height="73" class="nrembrowser-thumbnail-image" /></span></span></span><!--close styles-->
+</a></p>
+	<h2><a href="http://www.uft.org/our-rights/school-safety">School Safety</a></h2>
+	<p>Learn about incident reporting, school safety plans, safety workshops and more.</p>
+</div>
+<div style="height:100px">
+	<p><a href="http://www.uft.org/our-rights/environmental-health"><span id="styles-2" class="styles-wrapper">
+  <span class="styles nrembrowser-styles nrembrowser-styles-float-left"><span id="nrembrowser-thumbnail-2" class="nrembrowser-thumbnail "><img src="http://www.uft.org/files/photo/environmental-safety.jpg" alt="Environmental Health &amp; Safety listing image" title="" width="73" height="73" class="nrembrowser-thumbnail-image" /></span></span></span><!--close styles-->
+</a></p>
+	<h2><a href="http://www.uft.org/our-rights/environmental-health">Environmental Health and Safety</a></h2>
+	<p>Learn about environmental and health hazards, diseases, site inspections, on-site training and more.</p>
+</div>
+<div style="height:100px">
+	<p><a href="http://www.uft.org/our-rights/health-wellness" target="_self"><span id="styles-3" class="styles-wrapper">
+  <span class="styles nrembrowser-styles nrembrowser-styles-float-left"><span id="nrembrowser-thumbnail-4" class="nrembrowser-thumbnail "><img src="http://www.uft.org/files/photo/health-wellness-logo.png" alt="UFT Health and Wellness" title="UFT Health and Wellness" width="73" height="73" class="nrembrowser-thumbnail-image" /></span></span></span><!--close styles-->
+</a></p>
+	<h2><a href="http://www.uft.org/our-rights/health-wellness" target="_self">Health and Wellness</a></h2>
+	<p>Learn about the health and wellness programs the UFT supports with our partners and about our partners in promoting the health of our students, colleagues and communities.</p>
+</div>
+<div style="height:100px">
+	<p><a href="http://www.uft.org/our-rights/brave" target="_self"><span id="styles-4" class="styles-wrapper">
+  <span class="styles nrembrowser-styles nrembrowser-styles-float-left"><span id="nrembrowser-thumbnail-6" class="nrembrowser-thumbnail "><img src="http://www.uft.org/files/photo/brave-logo-small.png" alt="Be Brave Against Bullying" title="Be Brave Against Bullying" width="73" height="73" class="nrembrowser-thumbnail-image" /></span></span></span><!--close styles-->
+</a></p>
+	<h2><a href="http://www.uft.org/our-rights/brave" target="_self">Anti-Bullying</a></h2>
+	<p>Learn about the UFT’s <strong>Be BRAVE Against Bullying</strong> campaign to provide educators with the tools, knowledge and support to be pro-active in confronting and stopping bullying.</p>
+</div>
+<h2>Other resources</h2>
+<blockquote>
+	<p><a href="http://www.uft.org/our-rights/pcbs-city-schools">PCBs in city schools</a></p>
+	<p><a href="http://www.uft.org/forms/523">Environmental Health and Safety Forms</a></p>
+	<p><a href="injured-on-the-job">Injured on the job?</a></p>
+	<p><a href="http://www.uft.org/forms/533">School Safety Forms</a></p>
+	<p><a href="http://www.uft.org/news/how-buy-pvc-free-school-supplies">How to buy PVC-free school supplies</a></p>
+	<p><a href="http://www.uft.org/files/attachments/hot-weather-precautions.pdf">Hot weather precautions</a></p>
+	<p>&nbsp;</p>
+</blockquote>
+<p><span id="styles-5" class="styles-wrapper">
+  <span class="styles nrembrowser-styles nrembrowser-styles-float-left"><span id="nrembrowser-thumbnail-8" class="nrembrowser-thumbnail "><img src="http://www.uft.org/files/photo/incident_report.png" alt="Incident report" title="" width="73" height="73" class="nrembrowser-thumbnail-image" /></span></span></span><!--close styles-->
+</p>
+<h2>Incident reporting</h2>
+<p>If you know of a safety incident, report it! The UFT has an online reporting system to make it easier for members to report threats to the safety and security of staff and students.</p>
+<p><a href="../uft-incident-report">File a UFT incident report &gt;&gt;</a></p>
+<p>&nbsp;</p>
+<h2>Get support</h2>
+<blockquote>
+	<p><a href="http://www.uft.org/our-benefits/victim-support-program">Victim Support Program</a></p>
+	<p><a href="http://www.uft.org/our-benefits/member-assistance-program">Member Assistance Program</a></p>
+	<p><a href="http://www.uft.org/our-rights/other-agencies-can-help">Other agencies that can help</a></p>
+	<p>&nbsp;</p>
+</blockquote>
+<h2>Learn about your rights</h2>
+<blockquote>
+	<p><a href="http://www.uft.org/our-rights/contract-articles">UFT contract articles</a></p>
+	<p><a href="http://www.uft.org/doe-documents/533">Chancellor’s Regulations</a></p>
+</blockquote>
+<h2>Contact us</h2>
+<p>If you need assistance regarding an incident in your school, wish to report an environmental safety hazard or feel that you or a colleague has been placed in an unsafe situation at work, please call the health and safety representative in your borough office:</p>
+<ul>
+	<li>Bronx: 718-379-6200</li>
+	<li>Brooklyn: 718-852-4900</li>
+	<li>Manhattan: 212-598-6800</li>
+	<li>Queens: 718-275-4400</li>
+	<li>Staten Island: 718-605-1400</li>
+</ul>
+  </div>
+
+  
+</div></div> <!-- /node-inner, /node -->
+        </div>
+
+        
+        
+      </div></div> <!-- /#content-inner, /#content -->
+
+
+              <div id="sidebar-right"><div id="sidebar-right-inner" class="region region-right">
+          <div id="block-uft_related-0" class="block block-uft_related region-odd even region-count-1 count-2 clear-block block block-uft_related sidebar-bottom-border-widget"><div class="block-inner">
+
+      <div class="title">Related content</div>
+  
+  <div class="content">
+    <div class="item-list"><ul><li class="first"><a href="http://www.uft.org/our-rights/lead-water" class="content-type-page">Lead in Water </a></li>
+<li><a href="http://www.uft.org/news/important-information-regarding-lead-testing-nyc-school-water" class="content-type-article">Important information regarding lead testing in NYC school water</a></li>
+<li><a href="http://www.uft.org/news-stories/mission-accomplished-0" class="content-type-article">Mission  accomplished!</a></li>
+<li><a href="http://www.uft.org/news-stories/doe-relaxes-ban-suspending-k-2-students" class="content-type-article">DOE relaxes ban on suspending K–2 students</a></li>
+<li class="last"><a href="http://www.uft.org/feature-stories/cooking-numbers" class="content-type-article">Cooking by the numbers</a></li>
+</ul></div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+        </div></div> <!-- /#sidebar-right-inner, /#sidebar-right -->
+      
+    </div></div> <!-- /#main-inner, /#main -->
+
+      <div id="footer"><div id="footer-inner" class="region region-footer">
+
+                
+                    <div id="block-menu-menu-member-quick-links" class="block block-menu region-odd odd region-count-1 count-5 clear-block block block-menu "><div class="block-inner">
+
+      <div class="title">Member Quick Links</div>
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first forms"><a href="../our-benefits/uft-forms" title="Forms">Forms</a></li>
+<li class="leaf healthbenefits"><a href="../health-benefits" title="Health Benefits">Health Benefits</a></li>
+<li class="leaf pension"><a href="../our-benefits/pension" title="Pension">Pension</a></li>
+<li class="leaf salary"><a href="salary" title="Salary">Salary</a></li>
+<li class="leaf uftsafetyincidentreport"><a href="../uft-incident-report" title="">UFT Safety Incident Report</a></li>
+<li class="leaf uftcoursesworkshops"><a href="../teaching/courses-workshops" title="">UFT Courses/Workshops</a></li>
+<li class="leaf advertise"><a href="../advertise" title="">Advertise</a></li>
+<li class="leaf last frequentlyaskedquestions"><a href="../faqs" title="">Frequently Asked Questions</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-menu-menu-participate" class="block block-menu region-even even region-count-2 count-6 clear-block block block-menu "><div class="block-inner">
+
+      <div class="title">Participate</div>
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first jointheuft"><a href="../enrollment-info" title="Join the UFT">Join the UFT</a></li>
+<li class="leaf ourcampaigns"><a href="../campaigns" title="Action Alerts">Our Campaigns</a></li>
+<li class="leaf last signupfortextalerts"><a href="../campaigns/sign-text-messaging" title="">Sign up for text alerts</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-menu-menu-stay-connected" class="block block-menu region-odd odd region-count-3 count-7 clear-block block block-menu "><div class="block-inner">
+
+      <div class="title">Stay Connected</div>
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first ampxe"><a href="http://www.facebook.com/uftny" title="Facebook: Like us">&#xe602;</a></li>
+<li class="leaf ampxe"><a href="http://twitter.com/UFT" title="Twitter: Follow us">&#xe604;</a></li>
+<li class="leaf last ampxea"><a href="http://instagram.com/uftny" title="Instagram: follow us">&#xea92;</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-menu-menu-your-borough-office" class="block block-menu region-even even region-count-4 count-8 clear-block block block-menu "><div class="block-inner">
+
+      <div class="title">Your Borough Office</div>
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first brooklyn"><a href="../boroughs/brooklyn" title="Brooklyn">Brooklyn</a></li>
+<li class="leaf queens"><a href="../boroughs/queens" title="Queens">Queens</a></li>
+<li class="leaf bronx"><a href="../boroughs/bronx" title="Bronx">Bronx</a></li>
+<li class="leaf statenisland"><a href="../boroughs/staten-island" title="Staten Island">Staten Island</a></li>
+<li class="leaf last manhattan"><a href="../boroughs/manhattan" title="Manhattan">Manhattan</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+                
+      </div></div> <!-- /#footer-inner, /#footer -->
+
+  </div></div> <!-- /#page-inner, /#page -->
+
+  <div id="closure-blocks" class="region region-closure clear-block"><div id="block-user-0" class="block block-user region-odd odd region-count-1 count-9 clear-block block block-user "><div class="block-inner">
+
+      <div class="title">User login</div>
+  
+  <div class="content">
+    <form action="http://www.uft.org/our-rights/safety-health?destination=node%2F608"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+ <div class="description">Enter the email address you used to sign up at UFT.org.</div>
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="http://www.uft.org/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="http://www.uft.org/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-n8Ar5bMkNyQ1N5xOoeWxxHQe0odLes7kRwhro4ktKTY" value="form-n8Ar5bMkNyQ1N5xOoeWxxHQe0odLes7kRwhro4ktKTY"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+<div class="clear-block">&nbsp;</div><div class="message-register">If you don't have a UFT.org profile, please <a href="http://www.uft.org/user/register">sign up</a>.<br/> <a href="http://www.uft.org/user/password">Forgot your password?</a></div>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-1" class="block block-block region-even even region-count-2 count-10 clear-block block block-block uft-copyright"><div class="block-inner">
+
+  
+  <div class="content">
+    <p>Copyright © 1999 – 2017 United Federation of Teachers</p>
+<script>
+
+$(document).ready(function(){
+
+
+if ( $('body').hasClass('page-batch') )
+{
+location.reload();
+}
+
+if ( $('body').hasClass('node-type-article') ) { $('meta[name=twitter:image:src]').attr('name', "twitter:image"); }
+
+
+var teachContract = $('#uft-contract-block-search-form option').eq(-3);
+
+$(teachContract).attr('selected','selected');
+
+
+<!-- image resizing -->
+
+if ( $('body').hasClass('.node-type-clupdates') || $('body').hasClass('.node-type-article') )
+{
+
+$('#content-area .nrembrowser-styles').attr('style', '');
+
+
+$('.nrembrowser-styles img').each( function(){
+
+var imgWidth = $(this).width();
+
+$(this).parents('.styles-wrapper').addClass("stretch-wrapper _" + imgWidth);
+
+$(this).addClass("stretch-img _" + imgWidth);
+
+
+});
+
+
+}
+
+
+
+<!-- Remove inline styles + add class to embedded photos on article and pages -->
+
+
+if( $('body').hasClass('.node-type-article') || $('body').hasClass('.node-type-page')  ) {
+
+
+var stripCSS = new Array();
+
+
+$('#content-area .content span.nrembrowser-styles').each( function(){
+
+
+var spanWidth = $(this).width();
+	
+        $(this).addClass('width-' + spanWidth);
+
+	$(this).attr('style', '');
+
+
+});
+
+}
+
+
+
+<!-- Remove PDF icon from images that link to pdfs -->
+
+var gotPDF = $('#content-area a[href$=".pdf"]  img');
+
+if(gotPDF) {
+   $(gotPDF).parents('a').addClass('remove-pdf-icon');
+   }
+
+
+ 
+
+
+
+
+<!-- NYT article: to teach is to touch lives forever -->
+
+$('.content-section').after(" ").css({'display':'block', 'clear': 'both'});
+
+$('.content-section').css('border-bottom', '1px solid #541a33');
+
+$('.clear-section').css('clear', 'both');
+
+$('.content-section:nth-child(n + 2)').css('padding-top', '2em');
+
+$('.content-section:nth-last-of-type(1)').css({'border-bottom-width': '0','padding-bottom': '0'});
+
+$('.content-section-footer').css('font-weight', 'bold');
+
+$('.align-right').css({'float':'right', 'text-align':'right'});
+
+<!-- quick fixes to be moved to code -->
+
+<!-- Parents, moved in revision 5801 -->
+
+$('.section-parent-news #sidebar-left').css('background-color', '#3258df');
+
+$('.section-parent-news #sidebar-left .title').css('background-color', '#3258df');
+
+$('.section-parent-news #sidebar-left .content').css('background-color', '#5a79e5');
+
+<!-- Calendar -->
+
+$('.section-calendar .wrap_pager').css({'margin-top': '1em', 'margin-bottom': '-1em'});
+
+$('.uft-calendar .view-content').css('margin-top', '1em');
+
+$('.section-calendar .view-filters, .section-calendar .view-uft-calendar').css('float', 'none');
+
+$('.calendar-month, .uft-calendar').css('float', 'left');
+
+$('#content-area .pane-title h2').css('font-size', '1em');
+
+<!-- upcoming events links -->
+
+$('.upcoming-events-pane .view-content a').css(
+  {
+  'display': 'block',
+  'margin-left': '1.5em'
+  });
+
+$('.front .upcoming-events + .panel-region-separator').css('display', 'none');
+
+
+<!-- faux round photos -->
+$('.image-round-border img').css('border-radius', '50%');
+
+
+<!-- NY Teacher Archive -->
+$('.not-front.page-news-ny-teacher-archive-2015-2016 #content').css(
+  {
+  'position': 'relative',
+  'width': '78.7234%',
+  'margin-right': '0'
+  });
+
+
+$('#content-bottom').css('clear', 'both');
+
+
+$('.page-chapters-federation-nurses .quick-links').addClass('single-col-full').css('width', '100%');
+
+
+<!-- Obits -->
+
+
+if ( $('body').hasClass('.node-type-obituaries') )
+{
+
+var editobit = $('.node-type-obituaries .imagecache-portrait_small').attr('src');
+var editPos = editobit.search("/photo/");
+var editObitPhoto = editobit.slice(editPos + 7);
+var editNewObitPhotoURL = "http://www.uft.org/files/imagecache/portrait_small/photo/" + editObitPhoto;
+
+$('.node-type-obituaries .imagecache-portrait_small').attr('src', editNewObitPhotoURL);
+
+}
+
+
+
+
+
+
+<!-- Instagram Galleries -->
+
+$('body.page-galleries-instagram-uftgopink-2015 .instaheader').css({'background-color': '#f447a5', 'float': 'left', 'width': '282px', 'color': '#fff', 'padding': '1.25em', 'text-align': 'left', 'margin-top': '20px', 'border-radius': '1.25em', 'position': 'relative', 'z-index': '100' });
+
+$('body.page-galleries-instagram-uftgopink-2015 .instaheader a').css({'font-size': '1.3em', 'color': '#fff'});
+
+$('body.page-galleries-instagram-uftgopink-2015 #subscribe').css('clear', 'left');
+
+<!-- submit button was hidden? This brings it back to life. With padding beneath the filters -->
+
+$('.section-calendar .views-exposed-widget.views-submit-button').css('display', 'block');
+
+
+
+<!-- Temp CSS -->
+
+var tempCSS =  $('<link />').attr('rel', 'stylesheet').attr('href', 'http://files.uft.org/uft-temp-css/uft-temp-css-2017-0223-3.css');
+
+$('head').append(tempCSS);
+
+<!-- Analytics -->
+
+	$('#block-menu-menu-member-quick-links .menu a').click( function(){
+			var featTitle = $( this ).text();
+			_gaq.push(['_trackEvent', 'quick links', 'link', featTitle]);
+		});
+		
+	$('.resources-block .content a').click( function(){
+			var featTitle = $( this ).text();
+			_gaq.push(['_trackEvent', 'resources', 'link', featTitle]);
+		});
+
+});
+
+</script>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-2" class="block block-block region-odd odd region-count-3 count-11 clear-block block block-block contact-privacy"><div class="block-inner">
+
+  
+  <div class="content">
+    <p><a href="../contact">Contact Us</a> | <a href="../news/press-releases">Press Releases</a> | <a href="../privacy">Privacy Policy</a></p>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-309174-11"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = "/files/googleanalytics/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+</div>
+
+<!-- Javascript -->
+
+<!--  Latest version of Jquery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+
+<script>var $jq = jQuery.noConflict(true); </script>
+
+<script src="http://www.uft.org/sites/all/themes/custom/uft/js/swipebox/js/jquery.swipebox-uft-custom.js"></script><script> prepareSwipebox(true); </script><script src="http://platform.twitter.com/widgets.js"></script><script>facebook_dialog();</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0709e856fe","applicationID":"2514148","transactionName":"b1YHZBNRCkUFUhVdWFYcJFMVWQtYS0EAU1JnXgReAFcBRDtfDlBSZ0UMVRY=","queueTime":0,"applicationTime":2575,"atts":"QxEEEltLGUs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
