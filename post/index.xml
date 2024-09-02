@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Paul Ohm</title>
-    <link>/post/</link>
+    <link>//localhost:1313/post/</link>
     <description>Recent content in Posts on Paul Ohm</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Jan 2022 13:44:02 -0500</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, world!</title>
-      <link>/post/hello-world/</link>
+      <link>//localhost:1313/post/hello-world/</link>
       <pubDate>Mon, 03 Jan 2022 13:44:02 -0500</pubDate>
-      <guid>/post/hello-world/</guid>
+      <guid>//localhost:1313/post/hello-world/</guid>
       <description>Hello, world!&#xA;Another year, another website, another blog. Happy 2022.&#xA;I&amp;rsquo;ve had the same black-and-white home page for as long as I&amp;rsquo;ve been a professor, so more than fifteen years. This new-and-improved version has a few tiny splashes of color and, more importantly, it is responsive. But in its minimalism, it&amp;rsquo;s very much the spiritual successor to my prior page.&#xA;The biggest change is under the hood: no longer is this just a bunch of hand-edited HTML.</description>
     </item>
   </channel>

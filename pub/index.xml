@@ -2,248 +2,255 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Paul Ohm</title>
-    <link>/pub/</link>
+    <link>//localhost:1313/pub/</link>
     <description>Recent content in Publications on Paul Ohm</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/pub/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/pub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Focusing Privacy Law</title>
-      <link>/pub/focusing-privacy/</link>
+      <link>//localhost:1313/pub/focusing-privacy/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/focusing-privacy/</guid>
+      <guid>//localhost:1313/pub/focusing-privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Focusing on Fine-Tuning: Understanding the Four Pathways for Shaping Generative AI</title>
-      <link>/pub/fine-tuning/</link>
+      <link>//localhost:1313/pub/fine-tuning/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/fine-tuning/</guid>
+      <guid>//localhost:1313/pub/fine-tuning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Voting for Consent</title>
+      <link>//localhost:1313/pub/voting/</link>
+      <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
+      <guid>//localhost:1313/pub/voting/</guid>
       <description></description>
     </item>
     <item>
       <title>Governance Seams</title>
-      <link>/pub/seams/</link>
+      <link>//localhost:1313/pub/seams/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/seams/</guid>
+      <guid>//localhost:1313/pub/seams/</guid>
       <description></description>
     </item>
     <item>
       <title>Fact and Friction: A Case Study in the Fight Against False News</title>
-      <link>/pub/fact-and-friction/</link>
+      <link>//localhost:1313/pub/fact-and-friction/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/fact-and-friction/</guid>
+      <guid>//localhost:1313/pub/fact-and-friction/</guid>
       <description></description>
     </item>
     <item>
       <title>Legacy Switches: A Proposal to Protect Privacy, Security, and the Environment from the Internet of Things</title>
-      <link>/pub/legacy/</link>
+      <link>//localhost:1313/pub/legacy/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/legacy/</guid>
+      <guid>//localhost:1313/pub/legacy/</guid>
       <description></description>
     </item>
     <item>
       <title>The Computer Fraud and Abuse Act After Van Buren</title>
-      <link>/pub/van-buren/</link>
+      <link>//localhost:1313/pub/van-buren/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/van-buren/</guid>
+      <guid>//localhost:1313/pub/van-buren/</guid>
       <description></description>
     </item>
     <item>
       <title>Illusory Conflicts: Post-Employment Clearance Procedures and the FTC’s Technological Expertise</title>
-      <link>/pub/conflicts/</link>
+      <link>//localhost:1313/pub/conflicts/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/conflicts/</guid>
+      <guid>//localhost:1313/pub/conflicts/</guid>
       <description></description>
     </item>
     <item>
       <title>The Many Revolutions of Carpenter</title>
-      <link>/pub/carpenter/</link>
+      <link>//localhost:1313/pub/carpenter/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/carpenter/</guid>
+      <guid>//localhost:1313/pub/carpenter/</guid>
       <description></description>
     </item>
     <item>
       <title>Throttling Machine Learning</title>
-      <link>/pub/throttling/</link>
+      <link>//localhost:1313/pub/throttling/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/throttling/</guid>
+      <guid>//localhost:1313/pub/throttling/</guid>
       <description></description>
     </item>
     <item>
       <title>Desirable Inefficiency</title>
-      <link>/pub/desirable-inefficiency/</link>
+      <link>//localhost:1313/pub/desirable-inefficiency/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:39 +0000</pubDate>
-      <guid>/pub/desirable-inefficiency/</guid>
+      <guid>//localhost:1313/pub/desirable-inefficiency/</guid>
       <description></description>
     </item>
     <item>
       <title>Forthright Code</title>
-      <link>/pub/forthright/</link>
+      <link>//localhost:1313/pub/forthright/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/forthright/</guid>
+      <guid>//localhost:1313/pub/forthright/</guid>
       <description></description>
     </item>
     <item>
       <title>Regulating at Scale</title>
-      <link>/pub/scale/</link>
+      <link>//localhost:1313/pub/scale/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/scale/</guid>
+      <guid>//localhost:1313/pub/scale/</guid>
       <description></description>
     </item>
     <item>
       <title>Playing With the Data: What Legal Scholars Should Learn About Machine Learning</title>
-      <link>/pub/playing/</link>
+      <link>//localhost:1313/pub/playing/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/playing/</guid>
+      <guid>//localhost:1313/pub/playing/</guid>
       <description></description>
     </item>
     <item>
       <title>The Investigative Dynamics of the Use of Malware by Law Enforcement</title>
-      <link>/pub/malware/</link>
+      <link>//localhost:1313/pub/malware/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/malware/</guid>
+      <guid>//localhost:1313/pub/malware/</guid>
       <description></description>
     </item>
     <item>
       <title>Regulating Software When Everything Has Software</title>
-      <link>/pub/software/</link>
+      <link>//localhost:1313/pub/software/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/software/</guid>
+      <guid>//localhost:1313/pub/software/</guid>
       <description></description>
     </item>
     <item>
       <title>The Surveillance Regulation Toolkit: Thinking Beyond Probable Cause</title>
-      <link>/pub/toolkit/</link>
+      <link>//localhost:1313/pub/toolkit/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/toolkit/</guid>
+      <guid>//localhost:1313/pub/toolkit/</guid>
       <description></description>
     </item>
     <item>
       <title>We Couldn’t Kill the Internet If We Tried</title>
-      <link>/pub/kill/</link>
+      <link>//localhost:1313/pub/kill/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/kill/</guid>
+      <guid>//localhost:1313/pub/kill/</guid>
       <description></description>
     </item>
     <item>
       <title>What if Everything Reveals Everything?</title>
-      <link>/pub/reveals/</link>
+      <link>//localhost:1313/pub/reveals/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/reveals/</guid>
+      <guid>//localhost:1313/pub/reveals/</guid>
       <description></description>
     </item>
     <item>
       <title>Sensitive Information</title>
-      <link>/pub/sensitive/</link>
+      <link>//localhost:1313/pub/sensitive/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/sensitive/</guid>
+      <guid>//localhost:1313/pub/sensitive/</guid>
       <description></description>
     </item>
     <item>
       <title>The Life of Riley (v. California)</title>
-      <link>/pub/riley/</link>
+      <link>//localhost:1313/pub/riley/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/riley/</guid>
+      <guid>//localhost:1313/pub/riley/</guid>
       <description></description>
     </item>
     <item>
       <title>What Do the Rules Say About Data Analysis?</title>
-      <link>/pub/data-analysis-rules/</link>
+      <link>//localhost:1313/pub/data-analysis-rules/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/data-analysis-rules/</guid>
+      <guid>//localhost:1313/pub/data-analysis-rules/</guid>
       <description></description>
     </item>
     <item>
       <title>Branding Privacy</title>
-      <link>/pub/branding/</link>
+      <link>//localhost:1313/pub/branding/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/branding/</guid>
+      <guid>//localhost:1313/pub/branding/</guid>
       <description></description>
     </item>
     <item>
       <title>The Underwhelming Benefits of Big Data</title>
-      <link>/pub/underwhelming/</link>
+      <link>//localhost:1313/pub/underwhelming/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/underwhelming/</guid>
+      <guid>//localhost:1313/pub/underwhelming/</guid>
       <description></description>
     </item>
     <item>
       <title>Electronic Surveillance Law and the Intra-Agency Separation of Powers</title>
-      <link>/pub/separation/</link>
+      <link>//localhost:1313/pub/separation/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/separation/</guid>
+      <guid>//localhost:1313/pub/separation/</guid>
       <description></description>
     </item>
     <item>
       <title>The Fourth Amendment in a World Without Privacy</title>
-      <link>/pub/without-privacy/</link>
+      <link>//localhost:1313/pub/without-privacy/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/without-privacy/</guid>
+      <guid>//localhost:1313/pub/without-privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Massive Hard Drives, General Warrants, and the Power of Magistrate Judges</title>
-      <link>/pub/magistrate/</link>
+      <link>//localhost:1313/pub/magistrate/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/magistrate/</guid>
+      <guid>//localhost:1313/pub/magistrate/</guid>
       <description></description>
     </item>
     <item>
       <title>Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization</title>
-      <link>/pub/broken/</link>
+      <link>//localhost:1313/pub/broken/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/broken/</guid>
+      <guid>//localhost:1313/pub/broken/</guid>
       <description></description>
     </item>
     <item>
       <title>Probably Probable Cause: The Diminishing Importance of Justification Standards</title>
-      <link>/pub/probably/</link>
+      <link>//localhost:1313/pub/probably/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/probably/</guid>
+      <guid>//localhost:1313/pub/probably/</guid>
       <description></description>
     </item>
     <item>
       <title>The Argument Against Technology Neutral Surveillance Laws</title>
-      <link>/pub/neutral/</link>
+      <link>//localhost:1313/pub/neutral/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/neutral/</guid>
+      <guid>//localhost:1313/pub/neutral/</guid>
       <description></description>
     </item>
     <item>
       <title>Computer Programming and the Law: A New Research Agenda</title>
-      <link>/pub/programming/</link>
+      <link>//localhost:1313/pub/programming/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/programming/</guid>
+      <guid>//localhost:1313/pub/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>The Rise and Fall of Invasive ISP Surveillance</title>
-      <link>/pub/isp/</link>
+      <link>//localhost:1313/pub/isp/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:40 +0000</pubDate>
-      <guid>/pub/isp/</guid>
+      <guid>//localhost:1313/pub/isp/</guid>
       <description></description>
     </item>
     <item>
       <title>Good Enough Privacy</title>
-      <link>/pub/enough/</link>
+      <link>//localhost:1313/pub/enough/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/enough/</guid>
+      <guid>//localhost:1313/pub/enough/</guid>
       <description></description>
     </item>
     <item>
       <title>The Myth of the Superuser: Fear, Risk, and Harm Online</title>
-      <link>/pub/myth/</link>
+      <link>//localhost:1313/pub/myth/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:39 +0000</pubDate>
-      <guid>/pub/myth/</guid>
+      <guid>//localhost:1313/pub/myth/</guid>
       <description></description>
     </item>
     <item>
       <title>The Olmsteadian Seizure Clause</title>
-      <link>/pub/olmsteadian/</link>
+      <link>//localhost:1313/pub/olmsteadian/</link>
       <pubDate>Thu, 11 Jan 2024 01:40:41 +0000</pubDate>
-      <guid>/pub/olmsteadian/</guid>
+      <guid>//localhost:1313/pub/olmsteadian/</guid>
       <description></description>
     </item>
   </channel>
