@@ -4,20 +4,16 @@
     <title>Posts on Paul Ohm</title>
     <link>/post/</link>
     <description>Recent content in Posts on Paul Ohm</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 13:44:02 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 13:44:02 -0500</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, world!</title>
       <link>/post/hello-world/</link>
       <pubDate>Mon, 03 Jan 2022 13:44:02 -0500</pubDate>
-      
       <guid>/post/hello-world/</guid>
-      <description>Hello, world!
-Another year, another website, another blog. Happy 2022.
-I&amp;rsquo;ve had the same black-and-white home page for as long as I&amp;rsquo;ve been a professor, so more than fifteen years. This new-and-improved version has a few tiny splashes of color and, more importantly, it is responsive. But in its minimalism, it&amp;rsquo;s very much the spiritual successor to my prior page.
-The biggest change is under the hood: no longer is this just a bunch of hand-edited HTML.</description>
+      <description>Hello, world!&#xA;Another year, another website, another blog. Happy 2022.&#xA;I&amp;rsquo;ve had the same black-and-white home page for as long as I&amp;rsquo;ve been a professor, so more than fifteen years. This new-and-improved version has a few tiny splashes of color and, more importantly, it is responsive. But in its minimalism, it&amp;rsquo;s very much the spiritual successor to my prior page.&#xA;The biggest change is under the hood: no longer is this just a bunch of hand-edited HTML.</description>
     </item>
-    
   </channel>
 </rss>
