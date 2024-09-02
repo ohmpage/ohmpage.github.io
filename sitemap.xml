@@ -2,142 +2,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/pub/focusing-privacy/</loc>
+    <loc>/pub/focusing-privacy/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/fine-tuning/</loc>
+    <loc>/pub/fine-tuning/</loc>
     <lastmod>2024-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/voting/</loc>
+    <loc>/pub/voting/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/seams/</loc>
+    <loc>/pub/seams/</loc>
     <lastmod>2024-01-11T01:40:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/fact-and-friction/</loc>
+    <loc>/pub/fact-and-friction/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/legacy/</loc>
+    <loc>/pub/legacy/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/hello-world/</loc>
+    <loc>/post/hello-world/</loc>
     <lastmod>2022-01-03T13:44:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/scratch/links/</loc>
+    <loc>/scratch/links/</loc>
     <lastmod>2022-01-03T13:44:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2022-01-03T13:44:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/scratch/</loc>
+    <loc>/scratch/</loc>
     <lastmod>2022-01-03T13:44:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2021-06-21T11:44:02-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/bio/</loc>
+    <loc>/bio/</loc>
     <lastmod>2021-06-21T11:44:02-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2021-06-21T11:44:02-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2021-06-21T11:44:02-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/</loc>
+    <loc>/pub/</loc>
     <lastmod>2021-06-21T11:44:02-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/van-buren/</loc>
+    <loc>/pub/van-buren/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/conflicts/</loc>
+    <loc>/pub/conflicts/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/carpenter/</loc>
+    <loc>/pub/carpenter/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/throttling/</loc>
+    <loc>/pub/throttling/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/desirable-inefficiency/</loc>
+    <loc>/pub/desirable-inefficiency/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/forthright/</loc>
+    <loc>/pub/forthright/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/scale/</loc>
+    <loc>/pub/scale/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/playing/</loc>
+    <loc>/pub/playing/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/malware/</loc>
+    <loc>/pub/malware/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/software/</loc>
+    <loc>/pub/software/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/toolkit/</loc>
+    <loc>/pub/toolkit/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/kill/</loc>
+    <loc>/pub/kill/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/reveals/</loc>
+    <loc>/pub/reveals/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/sensitive/</loc>
+    <loc>/pub/sensitive/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/riley/</loc>
+    <loc>/pub/riley/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/data-analysis-rules/</loc>
+    <loc>/pub/data-analysis-rules/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/branding/</loc>
+    <loc>/pub/branding/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/underwhelming/</loc>
+    <loc>/pub/underwhelming/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/separation/</loc>
+    <loc>/pub/separation/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/without-privacy/</loc>
+    <loc>/pub/without-privacy/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/magistrate/</loc>
+    <loc>/pub/magistrate/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/broken/</loc>
+    <loc>/pub/broken/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/probably/</loc>
+    <loc>/pub/probably/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/neutral/</loc>
+    <loc>/pub/neutral/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/programming/</loc>
+    <loc>/pub/programming/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/isp/</loc>
+    <loc>/pub/isp/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/enough/</loc>
+    <loc>/pub/enough/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/myth/</loc>
+    <loc>/pub/myth/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pub/olmsteadian/</loc>
+    <loc>/pub/olmsteadian/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/courses/</loc>
+    <loc>/courses/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
