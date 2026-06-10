@@ -1,0 +1,26 @@
+{{define "main"}}
+<section class="container mt-3" style="max-width: 720px;">
+        <h2 class="text-center">{{.Title}}</h2>
+        {{if eq .Kind "taxonomyTerm"}}
+            {{range $key, $value := .Data.Terms.Alphabetical}}
+                <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ $value.Name | lower }}'>{{ $value.Name }} ({{.Count }})</a></span>
+            {{end}}
+	{{else if eq .Section "pub"}}
+		<div class="row">
+                  {{range .Pages}}
+                  <div class="m-3">
+		    {{- partial "citation.html" . -}}
+                  </div>
+                  {{end}}
+		</div>
+        {{else}}
+            <div class="row">
+                    {{range .Pages}}
+                    <div class="m-3">
+                        <a href="{{.Permalink}}">{{ .Title }}</a> {{if eq .Section "post"}}({{.PublishDate.Format "1/2/2006"}}){{end}}
+                    </div>
+                    {{end}}
+            </div>
+    {{end }}
+</section>
+{{end}}

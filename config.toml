@@ -1,0 +1,14 @@
+theme = "monopriv"
+baseURL = "/"
+languageCode = "en-us"
+title = "Paul Ohm"
+about = "Professor of Law, Georgetown University Law Center"
+relativeurls = true
+
+[params]  
+about = "Professor of Law"
+employer = "Georgetown University Law Center"
+
+[params.hero]
+enabled = true
+img = "/img/PaulOhm1.jpg"

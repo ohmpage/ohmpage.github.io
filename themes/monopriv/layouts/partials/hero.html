@@ -1,0 +1,11 @@
+<section class="container tcoext-monospace">
+  <div class="container text-center">
+    {{if .Site.Params.hero.enabled }}
+    <img src='{{ .Site.Params.hero.img | absURL }}' title="Photo of Paul" width="250px" class="rounded-circle"/>
+    {{end}}
+    <h3 class="text-center mt-3">{{ .Site.Title }}</h3>
+    <span class='text-secondary'>{{ .Site.Params.about }}</span><br />
+    <span class='text-secondary'>{{ .Site.Params.employer }}</span>
+    <br><br>
+  </div>
+</section>

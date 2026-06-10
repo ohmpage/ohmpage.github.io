@@ -1,0 +1,29 @@
+{{define "main"}}
+{{- partial "hero.html" . -}}
+<div class="homepage-content container" style="max-width: 720px">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+
+<!-- Excerpt the first paragraph from content/_index.md which grabs from bio.md -->
+{{ $firstpar := index (split .Content "</p>") 0 }}
+{{ $firstpar | safeHTML }}</p>
+
+<a href="/bio">[Full bio]</a>
+<p />
+<p />
+<p />
+
+<em>Recent Publications</em><p />
+
+<ul>
+{{ with .Site.GetPage "/pub" }}
+  {{range first 7 .Pages}}
+    <li>
+      {{- partial "citation.html" . -}}
+    </li>
+  {{end}}
+{{ end }}
+</ul>
+<a href="/pub">[All Publications]</a>
+
+</div>
+{{end}}

@@ -1,0 +1,16 @@
+# Compiled
+*.elc
+
+# Packaging
+.cask
+
+# Backup files
+*~
+.DS_Store
+
+# Undo-tree save-files
+*.~undo-tree
+
+# Hugo build output
+public/
+.hugo_build.lock

@@ -1,0 +1,5 @@
+<!-- One standard file containing the citation format for pubs, currently used on the homepage and pubs homepage. -->
+<!-- Had to cram it all onto one line to prevent a stray space before the closing period. -->
+{{ with .Page }}
+  <em>{{ .Title }}</em>, {{ .Params.volume }} {{ .Params.publication }} {{ .Params.pages }} ({{ .Params.yearadorn }} {{- .Params.year -}})<!-- See if there are coauthors (more than one author in array. -->{{ if gt (len .Params.authors) 1 }}<!--following line is best way I could find to remove "Paul Ohm" from the authors array. -->{{ $coauthors := .Params.authors | complement (slice "Paul Ohm") }} (with {{ delimit $coauthors ", " }}){{ end }}.
+{{ end }}
