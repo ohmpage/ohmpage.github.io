@@ -53,6 +53,7 @@ def write_index_md(path, entry, coauthors):
     volume = entry.get('volume', '').strip()
     pages = entry.get('pages', '').strip()
     yearadorn = entry.get('yearadorn', '').strip()
+    link = entry.get('url', '').strip()
 
     lines = ['---']
     lines.append(f'title: {yaml_scalar(title)}')
@@ -67,6 +68,8 @@ def write_index_md(path, entry, coauthors):
         lines.append(f"pages: '{pages}'")
     if yearadorn:
         lines.append(f"yearadorn: '{yearadorn}'")
+    if link:
+        lines.append(f'link: {yaml_scalar(link)}')
     if coauthors:
         lines.append('coauthors:')
         for ca in coauthors:
