@@ -18,7 +18,7 @@
 {{ with .Site.GetPage "/pub" }}
   {{range first 7 .Pages}}
     <li>
-      {{- partial "citation.html" . -}}
+      {{- partial "citation.html" (dict "page" . "bookprefix" true) -}}
     </li>
   {{end}}
 {{ end }}

@@ -49,23 +49,33 @@ def write_index_md(path, entry, coauthors):
     title = entry.get('title', '').strip()
     year = entry.get('year', '').strip()
     date = f"{year}-01-01" if year else '1970-01-01'
-    publication = entry.get('journal', '').strip()
-    volume = entry.get('volume', '').strip()
-    pages = entry.get('pages', '').strip()
+    entrytype = entry.get('ENTRYTYPE', 'article').lower()
+    pubtype = 'book' if entrytype == 'book' else 'article'
     yearadorn = entry.get('yearadorn', '').strip()
     link = entry.get('url', '').strip()
 
     lines = ['---']
     lines.append(f'title: {yaml_scalar(title)}')
     lines.append(f"date: '{date}'")
-    if publication:
-        lines.append(f'publication: {yaml_scalar(publication)}')
-    if volume:
-        lines.append(f"volume: '{volume}'")
+    lines.append(f'pubtype: {pubtype}')
+
+    if pubtype == 'book':
+        publisher = entry.get('publisher', '').strip()
+        if publisher:
+            lines.append(f'publisher: {yaml_scalar(publisher)}')
+    else:
+        publication = entry.get('journal', '').strip()
+        volume = entry.get('volume', '').strip()
+        pages = entry.get('pages', '').strip()
+        if publication:
+            lines.append(f'publication: {yaml_scalar(publication)}')
+        if volume:
+            lines.append(f"volume: '{volume}'")
+        if pages:
+            lines.append(f"pages: '{pages}'")
+
     if year:
         lines.append(f"year: '{year}'")
-    if pages:
-        lines.append(f"pages: '{pages}'")
     if yearadorn:
         lines.append(f"yearadorn: '{yearadorn}'")
     if link:

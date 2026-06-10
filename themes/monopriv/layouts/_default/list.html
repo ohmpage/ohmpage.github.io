@@ -6,10 +6,23 @@
                 <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ $value.Name | lower }}'>{{ $value.Name }} ({{.Count }})</a></span>
             {{end}}
 	{{else if eq .Section "pub"}}
+		{{ $books := where .Pages ".Params.pubtype" "book" }}
+		{{ $articles := where .Pages ".Params.pubtype" "article" }}
+		{{ if $books }}
+		<h4 class="mt-3"><em>Books</em></h4>
 		<div class="row">
-                  {{range .Pages}}
+		  {{range $books}}
+		  <div class="m-3">
+		    {{- partial "citation.html" (dict "page" .) -}}
+		  </div>
+		  {{end}}
+		</div>
+		{{ end }}
+		{{ if $books }}<h4 class="mt-3"><em>Articles and Book Chapters</em></h4>{{ end }}
+		<div class="row">
+                  {{range $articles}}
                   <div class="m-3">
-		    {{- partial "citation.html" . -}}
+		    {{- partial "citation.html" (dict "page" .) -}}
                   </div>
                   {{end}}
 		</div>

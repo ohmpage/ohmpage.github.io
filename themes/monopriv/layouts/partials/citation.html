@@ -1,1 +1,8 @@
-{{ if .Params.link }}<a href="{{ .Params.link }}"><em>{{ .Title }}</em></a>{{ else }}<em>{{ .Title }}</em>{{ end }}, {{ with .Params.volume }}{{ . }} {{ end }}{{ .Params.publication }}{{ with .Params.pages }} {{ . }}{{ end }} ({{ with .Params.yearadorn }}{{ . }} {{ end }}{{- .Params.year -}}){{ with .Params.coauthors }} (with {{ delimit . ", " }}){{ end }}.
+{{- $page := .page -}}
+{{- $bookprefix := .bookprefix -}}
+{{- if and $bookprefix (eq $page.Params.pubtype "book") -}}Book: {{end -}}
+{{- if $page.Params.link -}}<a href="{{ $page.Params.link }}">{{- end -}}<em>{{ $page.Title }}</em>{{- if $page.Params.link -}}</a>{{- end -}}
+{{- if eq $page.Params.pubtype "book"}} ({{ with $page.Params.publisher }}{{ . }}, {{ end }}{{ with $page.Params.yearadorn }}{{ . }} {{ end }}{{- $page.Params.year -}})
+{{- else -}}, {{ with $page.Params.volume }}{{ . }} {{ end }}{{ $page.Params.publication }}{{ with $page.Params.pages }} {{ . }}{{ end }} ({{ with $page.Params.yearadorn }}{{ . }} {{ end }}{{- $page.Params.year -}})
+{{- end -}}
+{{- with $page.Params.coauthors }} (with {{ delimit . ", " }}){{ end }}.
