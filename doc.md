@@ -1,51 +1,62 @@
 I'm using this to document what I've reverse engineered about Hugo.
 
-# Workflow
+# Publication Import Workflow
 
-To add new pubs, do the following:
+Publications are tracked in `bib/mypubs.bib` (standard BibTeX format, compatible with Zotero and other tools). A Python script
+converts that file into Hugo content pages under `content/pub/`, one directory per publication.
 
-1. Edit the file at `Documents/Active/administrative/CVs/mypubs.bib` and add new entries for the new pubs.
-   - You need to have keys (these are just the strings after the opening curly brackets in the .bib file.)
-	 -  There is some magic I don't understand. If you use CamelCase for a bibtex key, it gets turned into a hyphenated lowercase equivalent for the Unix directory name!
-	 -  If the article is forthcoming, use the optional key "yearadorn" to have a string like "forthcoming ". The space is necessary.
-   - You need to have the modified python code listed below
-   - If you have coauthors, just enter them as "and Blah Blah" and it'll do the right thing.
-	 -  For more than one coauthor, just put Blah Blah and Blah Blah and Blah Blah etc and it'll turn those ands into commas
-   - forthcoming 20xx seems to do the right thing.
-2. Run academic to turn these bibtex entries into input directories in Hugo, one per pub with this command:
-   - % `academic --verbose import --bibtex ~/Documents/Active/administrative/CVs/mypubs.bib --publication-dir content/pub/ --overwrite`
-   - It will show errors for preexisting pubs. No errors the new ones.
-	 -  If you change something (e.g. forthcoming to published) you need to rerun by deleting the correct directory in content/pub/.
-3. Run Hugo to generate files and preview the changes.
-4. As usual, add/commit/push the public/ directory first and then the root directory second.
+## Adding or updating a publication
 
-# Turning bibtex into Hugo posts with `academic`
+1. Edit `bib/mypubs.bib`. Each entry needs at minimum:
+   - A **key** (the string after `@Article{` — use CamelCase for multi-word keys, e.g. `DataAnalysisRules`)
+   - `author`, `title`, `journal`, `year`
+   - Optionally: `volume`, `pages`
+   - For forthcoming articles: `yearadorn = {forthcoming}` (no trailing space needed)
+   - For coauthors: just list everyone in the `author` field as normal BibTeX (`{Paul Ohm and Jane Smith}`) — the script filters
+you out automatically
 
-I am using the `academic` tool from Wowchemy to turn BibTeX entries into Hugo folders and markdown files, one for each publication.
+2. Run the import script from the repo root:
+   ```
+   python scripts/import_pubs.py bib/mypubs.bib
+   ```
+   This creates new entries and skips existing ones. To update an existing entry (e.g., changing forthcoming to published, or
+fixing a typo):
+   ```
+   python scripts/import_pubs.py bib/mypubs.bib --overwrite
+   ```
 
-The tool itself comes from PyPi and the `pip3` call. It installs a command line script called `academic`. I called it like so (while cwd is ~/gitpit/paulohm.com-source):
+3. Commit and push as usual — GitHub Actions builds and deploys automatically.
 
-`% academic --verbose import --bibtex ~/Documents/Active/administrative/CVs/mypubs.bib --publication-dir content/pub/ --overwrite`
-
-It took me a while to figure out that the emacs bibtex library doesn't give the bibtex entries a key, and entries without keys are ignored. So I had to add keys for this to do anything. (keys are just the strings after the opening curly brackets in the .bib file.)
-
-By default, it puts the folders and files in `content/publication/` so I had to use the `--publication-dir` flag to use `pub` which I liked better for my URLs.
-
-It imports everything as `draft=true` by default. It took me a while to figure out that I had to change `draft=false` to get posts to compare.
-
-Update: Turns out, `academic` didn't export some of the fields, e.g. `volume`, `year`, or `pages`. So I hand-edited the file at `/Users/ohm/.pyenv/versions/3.12.3/lib/python3.12/site-packages/academic/import_bibtex.py` by adding this block near the very end of the `parse_bibtex_entry` function (after the similar if statements adding various things to the page.yaml dictionary):
+## First-time setup on a new machine
 
 ```
-    # Modified by Paul Ohm, 4/5/2025 to accommodate volumes, page numbers, and years
-    others = ("volume", "year", "pages", "yearadorn")
-    for curr in others:
-        if curr in entry:
-            page.yaml[curr] = clean_bibtex_str(entry[curr])
+pip install "bibtexparser<2"
 ```
 
-I also removed the asterisks that used to bracket the journal name. They were being treated as html rather than markdown and thus being shown.
+The version pin matters — bibtexparser 2.x has a completely different API and will break the script.
 
-That worked!
+## How the script works (if you need to modify it)
+
+The script lives at `scripts/import_pubs.py`. Key behaviors:
+
+- **BibTeX key → directory name**: CamelCase keys get hyphenated and lowercased. `DataAnalysisRules` → `data-analysis-rules`,
+`VanBuren` → `van-buren`, `Branding` → `branding`. Once a pub has a directory, don't rename its BibTeX key or the old directory
+becomes an orphan.
+
+- **Coauthors**: The script strips `Paul Ohm` from the author list (see `SITE_AUTHOR` constant at the top of the script) and
+stores only the remaining authors under a `coauthors:` field. Solo papers get no `coauthors` field. The citation template
+(`themes/monopriv/layouts/partials/citation.html`) uses this field to render the "(with X, Y)" parenthetical — it has no
+knowledge of your name.
+
+- **Fields written**: Only the fields Hugo actually uses: `title`, `date`, `publication`, `volume`, `year`, `pages`, `yearadorn`,
+`coauthors`. All the boilerplate fields the old `academic` tool generated (abstract, doi, url_pdf, etc.) are omitted because the
+site never displayed them.
+
+- **`OPT*` fields**: Emacs bibtex-mode prefixes optional/empty fields with `OPT` (e.g., `OPTvolume`). The script ignores these
+automatically.
+
+
+
 
 # Getting the pub entries to appear
 
